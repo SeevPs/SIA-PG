@@ -748,5 +748,43 @@
     "image": "https://picsum.photos/seed/siapg-competitor-analyst/640/400",
     "homepage": "https://github.com/SeevPs/SIA-PG",
     "content": "---\nname: competitor-analyst\ndescription: Breaks down competitors' strengths, gaps, and strategy.\n---\n\n# Competitor Analyst\n\n> Breaks down competitors' strengths, gaps, and strategy.\n\n## Overview\nAnalyzes competitors systematically: features, pricing, positioning, and likely strategy — then highlights where they're weak and how you can differentiate credibly.\n\n## Capabilities\n- Compares features, pricing, and positioning\n- Identifies competitor strengths and gaps\n- Infers strategy from public signals\n- Recommends a credible differentiation angle\n\n## How it works\n1. Clarify the goal and gather the relevant context.\n2. Analyze the input against research best practices.\n3. Produce a first-pass result, then self-review for gaps and errors.\n4. Refine and deliver a polished, ready-to-use result.\n\n## When to use\n- Entering a crowded market\n- Planning your positioning\n\n## Best practices\n- Separate evidence from interpretation.\n- Cite sources and flag uncertainty honestly.\n- Synthesize into a decision-ready takeaway.\n\n## Example\n```\nAnalyze three note-taking apps and find a gap I could position against.\n```\n\n## Output\nA clear, actionable Competitor Analyst result you can use right away — concrete, scoped, and free of filler.\n\n## Tags\n`research` `competitors` `strategy`\n"
+  },
+  {
+    "id": "discord-bot-python",
+    "name": "Discord Bot (Python)",
+    "description": "Builds powerful, production-ready Discord bots in Python using discord.py v2 with slash commands, event handlers, and robust architecture.",
+    "category": "Development",
+    "tags": [
+      "discord",
+      "python",
+      "bot",
+      "slash-commands",
+      "development"
+    ],
+    "author": "SIA PG",
+    "version": "1.0.0",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 4H6a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h12a4 4 0 0 0 4-4V8a4 4 0 0 0-4-4z\"/><circle cx=\"9\" cy=\"12\" r=\"1.5\"/><circle cx=\"15\" cy=\"12\" r=\"1.5\"/><path d=\"M8 16a5 5 0 0 0 8 0\"/></svg>",
+    "image": "https://picsum.photos/seed/siapg-discord-bot-python/640/400",
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: discord-bot-python\ndescription: Builds powerful, production-ready Discord bots in Python using discord.py v2 with slash commands, event handlers, and robust architecture.\n---\n\n# Discord Bot (Python)\n\n> Builds powerful, production-ready Discord bots in Python using discord.py v2 with slash commands, event handlers, and robust architecture.\n\n## Overview\nA senior-engineer Discord bot generator. It structures advanced, production-ready Python bots with discord.py v2, slash commands, custom tasks, database pools, and clean modular designs.\n\n## Capabilities\n- Structures slash commands with autocomplete and choices\n- Employs modular Cog structure with automated loader\n- Implements global error handler with custom logger\n- Integrates robust scheduler task loops\n- Configures safe credential management\n\n## How it works\n1. Analyze functional requirements and commands.\n2. Output main bot boilerplate and cog system layout.\n3. Create dynamic slash command modules.\n4. Design event handler system.\n5. Output full ready-to-run code files.\n\n## When to use\n- Creating a new Discord bot in Python\n- Migrating from prefix commands to slash commands\n\n## Best practices\n- Separate command routing from core services.\n- Never write comments inside the code.\n- Ensure environment variables are loaded securely.\n\n## Example\n```\nWrite a Python Discord bot template with slash commands and a moderation cog.\n```\n\n## Output\nA robust, complete Python Discord bot codebase with slash command setup, dynamic Cogs, and logger.\n\n## Tags\n`discord` `python` `bot` `slash-commands` `development`\n"
+  },
+  {
+    "id": "discord-bot-node",
+    "name": "Discord Bot (Node.js)",
+    "description": "Builds powerful, production-ready Discord bots in Node.js using discord.js v14 with dynamic handlers, slash commands, and robust events architecture.",
+    "category": "Development",
+    "tags": [
+      "discord",
+      "node",
+      "bot",
+      "javascript",
+      "development"
+    ],
+    "author": "SIA PG",
+    "version": "1.0.0",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"11\" width=\"18\" height=\"10\" rx=\"2\"/><circle cx=\"8\" cy=\"16\" r=\"1\"/><circle cx=\"16\" cy=\"16\" r=\"1\"/><path d=\"M9 11v-4a3 3 0 0 1 6 0v4\"/><path d=\"M2 14h1M21 14h1\"/></svg>",
+    "image": "https://picsum.photos/seed/siapg-discord-bot-node/640/400",
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: discord-bot-node\ndescription: Builds powerful, production-ready Discord bots in Node.js using discord.js v14 with dynamic handlers, slash commands, and robust events architecture.\n---\n\n# Discord Bot (Node.js)\n\n> Builds powerful, production-ready Discord bots in Node.js using discord.js v14 with dynamic handlers, slash commands, and robust events architecture.\n\n## Overview\nA senior-engineer Discord bot generator. It structures advanced, production-ready Node.js bots with discord.js v14, dynamic command registers, event emitters, and interactive UI components.\n\n## Capabilities\n- Employs modular client command collection handler\n- Implements automated event listener bindings\n- Configures global slash command push script\n- Resolves rich button, select menu, and modal interactions\n- Connects database clients seamlessly\n\n## How it works\n1. Analyze bot commands, intents, and gateway needs.\n2. Output main entrypoint and registration setup.\n3. Create dynamic slash command file structure.\n4. Wire up events and interactive button listeners.\n5. Output full ready-to-run Javascript code files.\n\n## When to use\n- Creating a new Discord bot in Node.js\n- Refactoring event/command handler layouts\n\n## Best practices\n- Separate logic handlers from raw client listeners.\n- Never write comments inside the code.\n- Ensure environment variables are loaded securely.\n\n## Example\n```\nCreate a Node.js Discord bot using discord.js v14 with dynamic command handlers.\n```\n\n## Output\nA robust, complete Node.js Discord bot codebase with slash command register, handlers, and listener templates.\n\n## Tags\n`discord` `node` `bot` `javascript` `development`\n"
   }
 ]
