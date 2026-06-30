@@ -4,1295 +4,611 @@
     "name": "Code Reviewer",
     "description": "Reviews your code for bugs, style issues, and security risks, then suggests concrete fixes.",
     "category": "Development",
-    "tags": ["review", "quality", "bugs"],
+    "tags": [
+      "review",
+      "quality",
+      "bugs"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🔍",
     "image": "https://picsum.photos/seed/siapg-code-reviewer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: code-reviewer\ndescription: Reviews your code for bugs, style issues, and security risks, then suggests concrete fixes.\n---\n\n# Code Reviewer\n\nReviews your code for bugs, style issues, and security risks, then suggests concrete fixes.\n\n## When to use\n- You opened a pull request\n- You want a second pair of eyes before shipping\n\n## Tags\n`review` `quality` `bugs`\n"
   },
   {
     "id": "unit-test-writer",
     "name": "Unit Test Writer",
     "description": "Generates thorough, idiomatic unit tests with edge cases for your functions.",
     "category": "Development",
-    "tags": ["testing", "tdd", "coverage"],
+    "tags": [
+      "testing",
+      "tdd",
+      "coverage"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🧪",
     "image": "https://picsum.photos/seed/siapg-unit-test-writer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: unit-test-writer\ndescription: Generates thorough, idiomatic unit tests with edge cases for your functions.\n---\n\n# Unit Test Writer\n\nGenerates thorough, idiomatic unit tests with edge cases for your functions.\n\n## When to use\n- You wrote a new function\n- Coverage is low\n\n## Tags\n`testing` `tdd` `coverage`\n"
   },
   {
     "id": "refactor-assistant",
     "name": "Refactor Assistant",
     "description": "Restructures messy code for readability and performance without changing behavior.",
     "category": "Development",
-    "tags": ["refactor", "cleanup", "performance"],
+    "tags": [
+      "refactor",
+      "cleanup",
+      "performance"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "♻️",
     "image": "https://picsum.photos/seed/siapg-refactor-assistant/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: refactor-assistant\ndescription: Restructures messy code for readability and performance without changing behavior.\n---\n\n# Refactor Assistant\n\nRestructures messy code for readability and performance without changing behavior.\n\n## When to use\n- A file grew too large\n- Logic is duplicated\n\n## Tags\n`refactor` `cleanup` `performance`\n"
   },
   {
     "id": "api-designer",
     "name": "API Designer",
     "description": "Designs clean, consistent REST and GraphQL APIs with sensible naming and status codes.",
     "category": "Development",
-    "tags": ["api", "rest", "graphql"],
+    "tags": [
+      "api",
+      "rest",
+      "graphql"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🔌",
     "image": "https://picsum.photos/seed/siapg-api-designer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: api-designer\ndescription: Designs clean, consistent REST and GraphQL APIs with sensible naming and status codes.\n---\n\n# API Designer\n\nDesigns clean, consistent REST and GraphQL APIs with sensible naming and status codes.\n\n## When to use\n- You're starting a new service\n- Endpoints feel inconsistent\n\n## Tags\n`api` `rest` `graphql`\n"
   },
   {
     "id": "regex-builder",
     "name": "Regex Builder",
     "description": "Builds and explains regular expressions step by step so you actually understand them.",
     "category": "Development",
-    "tags": ["regex", "parsing", "strings"],
+    "tags": [
+      "regex",
+      "parsing",
+      "strings"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🧩",
     "image": "https://picsum.photos/seed/siapg-regex-builder/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: regex-builder\ndescription: Builds and explains regular expressions step by step so you actually understand them.\n---\n\n# Regex Builder\n\nBuilds and explains regular expressions step by step so you actually understand them.\n\n## When to use\n- You need to match a pattern\n- A regex isn't working\n\n## Tags\n`regex` `parsing` `strings`\n"
   },
   {
     "id": "sql-optimizer",
     "name": "SQL Optimizer",
     "description": "Analyzes slow SQL queries and rewrites them with proper indexes and joins.",
     "category": "Development",
-    "tags": ["sql", "database", "performance"],
+    "tags": [
+      "sql",
+      "database",
+      "performance"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🗃️",
     "image": "https://picsum.photos/seed/siapg-sql-optimizer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "python-expert",
-    "name": "Python Expert",
-    "description": "Provides advanced Python patterns, optimizations, and debugging strategies.",
-    "category": "Development",
-    "tags": ["python", "optimization", "patterns"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🐍",
-    "image": "https://picsum.photos/seed/siapg-python-expert/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "javascript-master",
-    "name": "JavaScript Master",
-    "description": "Guides through async/await, closures, prototypes, and ES6+ features.",
-    "category": "Development",
-    "tags": ["javascript", "async", "es6"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "⚡",
-    "image": "https://picsum.photos/seed/siapg-javascript-master/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "rust-mentor",
-    "name": "Rust Mentor",
-    "description": "Teaches ownership, borrowing, lifetimes, and safe systems programming.",
-    "category": "Development",
-    "tags": ["rust", "safety", "systems"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🦀",
-    "image": "https://picsum.photos/seed/siapg-rust-mentor/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "go-programmer",
-    "name": "Go Programmer",
-    "description": "Helps with Go concurrency patterns, goroutines, channels, and interfaces.",
-    "category": "Development",
-    "tags": ["go", "concurrency", "goroutines"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🎯",
-    "image": "https://picsum.photos/seed/siapg-go-programmer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "java-architect",
-    "name": "Java Architect",
-    "description": "Designs enterprise patterns, Spring Boot applications, and scalable backends.",
-    "category": "Development",
-    "tags": ["java", "spring", "enterprise"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "☕",
-    "image": "https://picsum.photos/seed/siapg-java-architect/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "typescript-guide",
-    "name": "TypeScript Guide",
-    "description": "Explains types, generics, decorators, and TypeScript patterns.",
-    "category": "Development",
-    "tags": ["typescript", "types", "oop"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🔷",
-    "image": "https://picsum.photos/seed/siapg-typescript-guide/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "csharp-developer",
-    "name": "C# Developer",
-    "description": "Guides through .NET, async patterns, LINQ, and Entity Framework.",
-    "category": "Development",
-    "tags": ["csharp", "dotnet", "async"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🟪",
-    "image": "https://picsum.photos/seed/siapg-csharp-developer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "kotlin-expert",
-    "name": "Kotlin Expert",
-    "description": "Teaches Kotlin extensions, coroutines, and Android development.",
-    "category": "Development",
-    "tags": ["kotlin", "android", "coroutines"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🅺",
-    "image": "https://picsum.photos/seed/siapg-kotlin-expert/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "swift-guide",
-    "name": "Swift Guide",
-    "description": "Helps with iOS development, SwiftUI, property wrappers, and concurrency.",
-    "category": "Development",
-    "tags": ["swift", "ios", "swiftui"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🍎",
-    "image": "https://picsum.photos/seed/siapg-swift-guide/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "react-expert",
-    "name": "React Expert",
-    "description": "Guides through hooks, state management, performance optimization, and testing.",
-    "category": "Frontend",
-    "tags": ["react", "hooks", "performance"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "⚛️",
-    "image": "https://picsum.photos/seed/siapg-react-expert/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "vue-specialist",
-    "name": "Vue Specialist",
-    "description": "Explains Vue 3 composition API, reactivity, and component patterns.",
-    "category": "Frontend",
-    "tags": ["vue", "composition", "reactivity"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "💚",
-    "image": "https://picsum.photos/seed/siapg-vue-specialist/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "angular-master",
-    "name": "Angular Master",
-    "description": "Teaches RxJS, dependency injection, decorators, and enterprise patterns.",
-    "category": "Frontend",
-    "tags": ["angular", "rxjs", "enterprise"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🅰️",
-    "image": "https://picsum.photos/seed/siapg-angular-master/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "svelte-guide",
-    "name": "Svelte Guide",
-    "description": "Helps with reactive declarations, stores, animations, and transitions.",
-    "category": "Frontend",
-    "tags": ["svelte", "reactive", "animations"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🔴",
-    "image": "https://picsum.photos/seed/siapg-svelte-guide/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "nextjs-builder",
-    "name": "Next.js Builder",
-    "description": "Guides through SSR, SSG, API routes, and Next.js optimization.",
-    "category": "Frontend",
-    "tags": ["nextjs", "ssr", "optimization"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "⬛",
-    "image": "https://picsum.photos/seed/siapg-nextjs-builder/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "nuxt-expert",
-    "name": "Nuxt Expert",
-    "description": "Helps with Nuxt 3, auto-imports, composables, and meta management.",
-    "category": "Frontend",
-    "tags": ["nuxt", "vue", "ssr"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🟢",
-    "image": "https://picsum.photos/seed/siapg-nuxt-expert/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "tailwind-designer",
-    "name": "Tailwind Designer",
-    "description": "Creates responsive, utility-first designs with Tailwind CSS.",
-    "category": "Frontend",
-    "tags": ["tailwind", "css", "responsive"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🎨",
-    "image": "https://picsum.photos/seed/siapg-tailwind-designer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "sass-master",
-    "name": "Sass Master",
-    "description": "Teaches nested styles, mixins, variables, and CSS architecture.",
-    "category": "Frontend",
-    "tags": ["sass", "css", "preprocessing"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🏗️",
-    "image": "https://picsum.photos/seed/siapg-sass-master/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "accessibility-expert",
-    "name": "Accessibility Expert",
-    "description": "Ensures WCAG compliance, screen reader support, and inclusive design.",
-    "category": "Frontend",
-    "tags": ["a11y", "wcag", "inclusive"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "♿",
-    "image": "https://picsum.photos/seed/siapg-accessibility-expert/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "performance-tuner",
-    "name": "Performance Tuner",
-    "description": "Optimizes Core Web Vitals, bundle size, and rendering performance.",
-    "category": "Frontend",
-    "tags": ["performance", "optimization", "vitals"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "⚡",
-    "image": "https://picsum.photos/seed/siapg-performance-tuner/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "webpack-expert",
-    "name": "Webpack Expert",
-    "description": "Configures advanced bundling, code splitting, and optimization.",
-    "category": "Frontend",
-    "tags": ["webpack", "bundling", "optimization"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📦",
-    "image": "https://picsum.photos/seed/siapg-webpack-expert/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "testing-strategist",
-    "name": "Testing Strategist",
-    "description": "Designs test suites with Jest, Vitest, Testing Library, and Cypress.",
-    "category": "Frontend",
-    "tags": ["testing", "jest", "e2e"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "✅",
-    "image": "https://picsum.photos/seed/siapg-testing-strategist/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "node-backend",
-    "name": "Node.js Backend",
-    "description": "Builds Express, Fastify, and Nest.js backends with proper architecture.",
-    "category": "Backend",
-    "tags": ["nodejs", "express", "backend"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🟩",
-    "image": "https://picsum.photos/seed/siapg-node-backend/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "database-designer",
-    "name": "Database Designer",
-    "description": "Designs schemas, normalizes data, and optimizes for queries.",
-    "category": "Backend",
-    "tags": ["database", "design", "schema"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🗄️",
-    "image": "https://picsum.photos/seed/siapg-database-designer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "mongodb-guide",
-    "name": "MongoDB Guide",
-    "description": "Guides through document design, indexing, and aggregation pipelines.",
-    "category": "Backend",
-    "tags": ["mongodb", "nosql", "document"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🍃",
-    "image": "https://picsum.photos/seed/siapg-mongodb-guide/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "postgresql-expert",
-    "name": "PostgreSQL Expert",
-    "description": "Teaches advanced SQL, window functions, CTEs, and optimization.",
-    "category": "Backend",
-    "tags": ["postgresql", "sql", "advanced"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🐘",
-    "image": "https://picsum.photos/seed/siapg-postgresql-expert/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "redis-master",
-    "name": "Redis Master",
-    "description": "Guides through caching strategies, pub/sub, and data structures.",
-    "category": "Backend",
-    "tags": ["redis", "caching", "pubsub"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🔴",
-    "image": "https://picsum.photos/seed/siapg-redis-master/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "elasticsearch-guide",
-    "name": "Elasticsearch Guide",
-    "description": "Helps with indexing, querying, and full-text search optimization.",
-    "category": "Backend",
-    "tags": ["elasticsearch", "search", "indexing"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🔍",
-    "image": "https://picsum.photos/seed/siapg-elasticsearch-guide/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "graphql-designer",
-    "name": "GraphQL Designer",
-    "description": "Designs GraphQL schemas, resolvers, and query optimization.",
-    "category": "Backend",
-    "tags": ["graphql", "api", "queries"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📊",
-    "image": "https://picsum.photos/seed/siapg-graphql-designer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "microservices-architect",
-    "name": "Microservices Architect",
-    "description": "Designs distributed systems with service patterns and communication.",
-    "category": "Backend",
-    "tags": ["microservices", "distributed", "architecture"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🏢",
-    "image": "https://picsum.photos/seed/siapg-microservices-architect/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "messaging-expert",
-    "name": "Messaging Expert",
-    "description": "Configures Kafka, RabbitMQ, and message queue patterns.",
-    "category": "Backend",
-    "tags": ["kafka", "messaging", "queue"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📨",
-    "image": "https://picsum.photos/seed/siapg-messaging-expert/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: sql-optimizer\ndescription: Analyzes slow SQL queries and rewrites them with proper indexes and joins.\n---\n\n# SQL Optimizer\n\nAnalyzes slow SQL queries and rewrites them with proper indexes and joins.\n\n## When to use\n- A query is slow\n- You're designing a schema\n\n## Tags\n`sql` `database` `performance`\n"
   },
   {
     "id": "blog-writer",
     "name": "Blog Writer",
     "description": "Drafts engaging, well-structured blog posts from a topic or rough outline.",
     "category": "Writing",
-    "tags": ["content", "blog", "writing"],
+    "tags": [
+      "content",
+      "blog",
+      "writing"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "✍️",
     "image": "https://picsum.photos/seed/siapg-blog-writer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: blog-writer\ndescription: Drafts engaging, well-structured blog posts from a topic or rough outline.\n---\n\n# Blog Writer\n\nDrafts engaging, well-structured blog posts from a topic or rough outline.\n\n## When to use\n- You need a first draft fast\n- You have an outline to expand\n\n## Tags\n`content` `blog` `writing`\n"
   },
   {
     "id": "grammar-fixer",
     "name": "Grammar Fixer",
     "description": "Fixes grammar, spelling, and awkward phrasing while keeping your voice intact.",
     "category": "Writing",
-    "tags": ["grammar", "editing", "proofread"],
+    "tags": [
+      "grammar",
+      "editing",
+      "proofread"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "📝",
     "image": "https://picsum.photos/seed/siapg-grammar-fixer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: grammar-fixer\ndescription: Fixes grammar, spelling, and awkward phrasing while keeping your voice intact.\n---\n\n# Grammar Fixer\n\nFixes grammar, spelling, and awkward phrasing while keeping your voice intact.\n\n## When to use\n- Before publishing anything\n- English isn't your first language\n\n## Tags\n`grammar` `editing` `proofread`\n"
   },
   {
     "id": "email-composer",
     "name": "Email Composer",
     "description": "Writes clear, professional emails for any tone, from cold outreach to follow-ups.",
     "category": "Writing",
-    "tags": ["email", "communication", "business"],
+    "tags": [
+      "email",
+      "communication",
+      "business"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "📧",
     "image": "https://picsum.photos/seed/siapg-email-composer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: email-composer\ndescription: Writes clear, professional emails for any tone, from cold outreach to follow-ups.\n---\n\n# Email Composer\n\nWrites clear, professional emails for any tone, from cold outreach to follow-ups.\n\n## When to use\n- You're stuck on wording\n- You need the right tone\n\n## Tags\n`email` `communication` `business`\n"
   },
   {
     "id": "translator",
     "name": "Translator",
     "description": "Translates text naturally between languages, preserving meaning and nuance.",
     "category": "Writing",
-    "tags": ["translation", "language", "localization"],
+    "tags": [
+      "translation",
+      "language",
+      "localization"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🌐",
     "image": "https://picsum.photos/seed/siapg-translator/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: translator\ndescription: Translates text naturally between languages, preserving meaning and nuance.\n---\n\n# Translator\n\nTranslates text naturally between languages, preserving meaning and nuance.\n\n## When to use\n- You need a localized version\n- Reading foreign content\n\n## Tags\n`translation` `language` `localization`\n"
   },
   {
     "id": "summarizer",
     "name": "Summarizer",
     "description": "Condenses long documents into crisp summaries and key takeaways.",
     "category": "Writing",
-    "tags": ["summary", "tldr", "reading"],
+    "tags": [
+      "summary",
+      "tldr",
+      "reading"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "📄",
     "image": "https://picsum.photos/seed/siapg-summarizer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "copywriter",
-    "name": "Professional Copywriter",
-    "description": "Writes persuasive, engaging copy for marketing and sales.",
-    "category": "Writing",
-    "tags": ["copywriting", "marketing", "persuasion"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📣",
-    "image": "https://picsum.photos/seed/siapg-copywriter/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "technical-writer",
-    "name": "Technical Writer",
-    "description": "Creates clear documentation, user guides, and technical specs.",
-    "category": "Writing",
-    "tags": ["documentation", "technical", "guides"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📖",
-    "image": "https://picsum.photos/seed/siapg-technical-writer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "storyteller",
-    "name": "Storyteller",
-    "description": "Crafts compelling narratives and story arcs for any medium.",
-    "category": "Writing",
-    "tags": ["storytelling", "narrative", "creative"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📚",
-    "image": "https://picsum.photos/seed/siapg-storyteller/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "poet",
-    "name": "Poet",
-    "description": "Creates poetry in various styles, meters, and rhyme schemes.",
-    "category": "Writing",
-    "tags": ["poetry", "creative", "literature"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "✨",
-    "image": "https://picsum.photos/seed/siapg-poet/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "dialogue-writer",
-    "name": "Dialogue Writer",
-    "description": "Writes natural, character-driven dialogue for scripts and stories.",
-    "category": "Writing",
-    "tags": ["dialogue", "screenplay", "characters"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "💬",
-    "image": "https://picsum.photos/seed/siapg-dialogue-writer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: summarizer\ndescription: Condenses long documents into crisp summaries and key takeaways.\n---\n\n# Summarizer\n\nCondenses long documents into crisp summaries and key takeaways.\n\n## When to use\n- A document is too long\n- You need the gist quickly\n\n## Tags\n`summary` `tldr` `reading`\n"
   },
   {
     "id": "data-cleaner",
     "name": "Data Cleaner",
     "description": "Cleans and normalizes messy datasets: missing values, duplicates, and bad types.",
     "category": "Data",
-    "tags": ["data", "cleaning", "etl"],
+    "tags": [
+      "data",
+      "cleaning",
+      "etl"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🧹",
     "image": "https://picsum.photos/seed/siapg-data-cleaner/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: data-cleaner\ndescription: Cleans and normalizes messy datasets: missing values, duplicates, and bad types.\n---\n\n# Data Cleaner\n\nCleans and normalizes messy datasets: missing values, duplicates, and bad types.\n\n## When to use\n- A dataset is messy\n- Before analysis\n\n## Tags\n`data` `cleaning` `etl`\n"
   },
   {
     "id": "chart-builder",
     "name": "Chart Builder",
     "description": "Turns raw numbers into the right chart with clear labels and good defaults.",
     "category": "Data",
-    "tags": ["charts", "visualization", "data"],
+    "tags": [
+      "charts",
+      "visualization",
+      "data"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "📊",
     "image": "https://picsum.photos/seed/siapg-chart-builder/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: chart-builder\ndescription: Turns raw numbers into the right chart with clear labels and good defaults.\n---\n\n# Chart Builder\n\nTurns raw numbers into the right chart with clear labels and good defaults.\n\n## When to use\n- You want to visualize data\n- A report needs a graph\n\n## Tags\n`charts` `visualization` `data`\n"
   },
   {
     "id": "csv-wizard",
     "name": "CSV Wizard",
     "description": "Transforms, filters, and queries CSV files without spinning up a database.",
     "category": "Data",
-    "tags": ["csv", "data", "transform"],
+    "tags": [
+      "csv",
+      "data",
+      "transform"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "📑",
     "image": "https://picsum.photos/seed/siapg-csv-wizard/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: csv-wizard\ndescription: Transforms, filters, and queries CSV files without spinning up a database.\n---\n\n# CSV Wizard\n\nTransforms, filters, and queries CSV files without spinning up a database.\n\n## When to use\n- You have a big CSV\n- You need to reshape rows\n\n## Tags\n`csv` `data` `transform`\n"
   },
   {
     "id": "excel-formula",
     "name": "Excel Formula",
     "description": "Writes and explains spreadsheet formulas, from VLOOKUP to dynamic arrays.",
     "category": "Data",
-    "tags": ["excel", "spreadsheet", "formulas"],
+    "tags": [
+      "excel",
+      "spreadsheet",
+      "formulas"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🟩",
     "image": "https://picsum.photos/seed/siapg-excel-formula/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "data-analyst",
-    "name": "Data Analyst",
-    "description": "Performs statistical analysis, hypothesis testing, and insights discovery.",
-    "category": "Data",
-    "tags": ["analysis", "statistics", "insights"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📈",
-    "image": "https://picsum.photos/seed/siapg-data-analyst/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "pandas-expert",
-    "name": "Pandas Expert",
-    "description": "Teaches data manipulation, grouping, merging, and time series analysis.",
-    "category": "Data",
-    "tags": ["pandas", "python", "dataframes"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🐼",
-    "image": "https://picsum.photos/seed/siapg-pandas-expert/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "powerbi-specialist",
-    "name": "Power BI Specialist",
-    "description": "Creates dashboards, reports, and DAX formulas for business intelligence.",
-    "category": "Data",
-    "tags": ["powerbi", "bi", "dashboards"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🔷",
-    "image": "https://picsum.photos/seed/siapg-powerbi-specialist/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "tableau-master",
-    "name": "Tableau Master",
-    "description": "Designs interactive visualizations and data stories in Tableau.",
-    "category": "Data",
-    "tags": ["tableau", "visualization", "bi"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📊",
-    "image": "https://picsum.photos/seed/siapg-tableau-master/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "matplotlib-guide",
-    "name": "Matplotlib Guide",
-    "description": "Creates publication-quality plots and scientific visualizations.",
-    "category": "Data",
-    "tags": ["matplotlib", "plotting", "visualization"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📉",
-    "image": "https://picsum.photos/seed/siapg-matplotlib-guide/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: excel-formula\ndescription: Writes and explains spreadsheet formulas, from VLOOKUP to dynamic arrays.\n---\n\n# Excel Formula\n\nWrites and explains spreadsheet formulas, from VLOOKUP to dynamic arrays.\n\n## When to use\n- A formula won't work\n- You need a calculation\n\n## Tags\n`excel` `spreadsheet` `formulas`\n"
   },
   {
     "id": "ui-designer",
     "name": "UI Designer",
     "description": "Suggests clean UI layouts, spacing, and component structure for your screens.",
     "category": "Design",
-    "tags": ["ui", "design", "layout"],
+    "tags": [
+      "ui",
+      "design",
+      "layout"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🎨",
     "image": "https://picsum.photos/seed/siapg-ui-designer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: ui-designer\ndescription: Suggests clean UI layouts, spacing, and component structure for your screens.\n---\n\n# UI Designer\n\nSuggests clean UI layouts, spacing, and component structure for your screens.\n\n## When to use\n- You're building a new screen\n- A layout feels off\n\n## Tags\n`ui` `design` `layout`\n"
   },
   {
     "id": "color-palette",
     "name": "Color Palette",
     "description": "Generates accessible, harmonious color palettes with contrast checks.",
     "category": "Design",
-    "tags": ["color", "design", "accessibility"],
+    "tags": [
+      "color",
+      "design",
+      "accessibility"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🌈",
     "image": "https://picsum.photos/seed/siapg-color-palette/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: color-palette\ndescription: Generates accessible, harmonious color palettes with contrast checks.\n---\n\n# Color Palette\n\nGenerates accessible, harmonious color palettes with contrast checks.\n\n## When to use\n- You need brand colors\n- Checking contrast\n\n## Tags\n`color` `design` `accessibility`\n"
   },
   {
     "id": "logo-ideator",
     "name": "Logo Ideator",
     "description": "Brainstorms logo concepts and directions based on your brand and values.",
     "category": "Design",
-    "tags": ["logo", "branding", "ideas"],
+    "tags": [
+      "logo",
+      "branding",
+      "ideas"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🖌️",
     "image": "https://picsum.photos/seed/siapg-logo-ideator/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "ux-researcher",
-    "name": "UX Researcher",
-    "description": "Plans user research, interviews, and usability testing strategies.",
-    "category": "Design",
-    "tags": ["ux", "research", "usability"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🔬",
-    "image": "https://picsum.photos/seed/siapg-ux-researcher/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "wireframe-specialist",
-    "name": "Wireframe Specialist",
-    "description": "Creates detailed wireframes and user flows for digital products.",
-    "category": "Design",
-    "tags": ["wireframe", "flows", "prototyping"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📐",
-    "image": "https://picsum.photos/seed/siapg-wireframe-specialist/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "animation-designer",
-    "name": "Animation Designer",
-    "description": "Designs smooth transitions, keyframe animations, and visual effects.",
-    "category": "Design",
-    "tags": ["animation", "motion", "effects"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🎬",
-    "image": "https://picsum.photos/seed/siapg-animation-designer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "typography-expert",
-    "name": "Typography Expert",
-    "description": "Recommends fonts, sizing, and hierarchy for readable, beautiful designs.",
-    "category": "Design",
-    "tags": ["typography", "fonts", "hierarchy"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🔤",
-    "image": "https://picsum.photos/seed/siapg-typography-expert/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "figma-master",
-    "name": "Figma Master",
-    "description": "Teaches Figma components, variants, prototyping, and design systems.",
-    "category": "Design",
-    "tags": ["figma", "design", "components"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🎨",
-    "image": "https://picsum.photos/seed/siapg-figma-master/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "branding-strategist",
-    "name": "Branding Strategist",
-    "description": "Develops brand identity, voice, and visual guidelines.",
-    "category": "Design",
-    "tags": ["branding", "identity", "strategy"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🏷️",
-    "image": "https://picsum.photos/seed/siapg-branding-strategist/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: logo-ideator\ndescription: Brainstorms logo concepts and directions based on your brand and values.\n---\n\n# Logo Ideator\n\nBrainstorms logo concepts and directions based on your brand and values.\n\n## When to use\n- Starting a new brand\n- You need fresh concepts\n\n## Tags\n`logo` `branding` `ideas`\n"
   },
   {
     "id": "dockerfile-helper",
     "name": "Dockerfile Helper",
     "description": "Writes small, secure, multi-stage Dockerfiles tuned for your stack.",
     "category": "DevOps",
-    "tags": ["docker", "containers", "devops"],
+    "tags": [
+      "docker",
+      "containers",
+      "devops"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🐳",
     "image": "https://picsum.photos/seed/siapg-dockerfile-helper/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: dockerfile-helper\ndescription: Writes small, secure, multi-stage Dockerfiles tuned for your stack.\n---\n\n# Dockerfile Helper\n\nWrites small, secure, multi-stage Dockerfiles tuned for your stack.\n\n## When to use\n- You're containerizing an app\n- Images are too big\n\n## Tags\n`docker` `containers` `devops`\n"
   },
   {
     "id": "ci-pipeline",
     "name": "CI/CD Pipeline",
     "description": "Sets up CI/CD pipelines for tests, builds, and deploys across providers.",
     "category": "DevOps",
-    "tags": ["ci", "cd", "automation"],
+    "tags": [
+      "ci",
+      "cd",
+      "automation"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🔄",
     "image": "https://picsum.photos/seed/siapg-ci-pipeline/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: ci-pipeline\ndescription: Sets up CI/CD pipelines for tests, builds, and deploys across providers.\n---\n\n# CI/CD Pipeline\n\nSets up CI/CD pipelines for tests, builds, and deploys across providers.\n\n## When to use\n- You need automated builds\n- Deploys are manual\n\n## Tags\n`ci` `cd` `automation`\n"
   },
   {
     "id": "nginx-config",
     "name": "Nginx Config",
     "description": "Generates nginx configs for reverse proxies, TLS, and caching.",
     "category": "DevOps",
-    "tags": ["nginx", "server", "config"],
+    "tags": [
+      "nginx",
+      "server",
+      "config"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "⚙️",
     "image": "https://picsum.photos/seed/siapg-nginx-config/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: nginx-config\ndescription: Generates nginx configs for reverse proxies, TLS, and caching.\n---\n\n# Nginx Config\n\nGenerates nginx configs for reverse proxies, TLS, and caching.\n\n## When to use\n- Setting up a proxy\n- You need HTTPS\n\n## Tags\n`nginx` `server` `config`\n"
   },
   {
     "id": "k8s-helper",
     "name": "Kubernetes Helper",
     "description": "Helps write and debug Kubernetes manifests, services, and ingresses.",
     "category": "DevOps",
-    "tags": ["kubernetes", "k8s", "devops"],
+    "tags": [
+      "kubernetes",
+      "k8s",
+      "devops"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "☸️",
     "image": "https://picsum.photos/seed/siapg-k8s-helper/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "terraform-guide",
-    "name": "Terraform Guide",
-    "description": "Teaches infrastructure as code, modules, and state management.",
-    "category": "DevOps",
-    "tags": ["terraform", "iac", "infrastructure"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🏗️",
-    "image": "https://picsum.photos/seed/siapg-terraform-guide/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "ansible-expert",
-    "name": "Ansible Expert",
-    "description": "Creates playbooks, roles, and automation workflows for configuration management.",
-    "category": "DevOps",
-    "tags": ["ansible", "automation", "configmgmt"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🤖",
-    "image": "https://picsum.photos/seed/siapg-ansible-expert/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "monitoring-expert",
-    "name": "Monitoring Expert",
-    "description": "Sets up observability with Prometheus, Grafana, and ELK stack.",
-    "category": "DevOps",
-    "tags": ["monitoring", "observability", "metrics"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📊",
-    "image": "https://picsum.photos/seed/siapg-monitoring-expert/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "aws-architect",
-    "name": "AWS Architect",
-    "description": "Designs scalable, secure cloud solutions using AWS services.",
-    "category": "DevOps",
-    "tags": ["aws", "cloud", "architecture"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "☁️",
-    "image": "https://picsum.photos/seed/siapg-aws-architect/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "gcp-specialist",
-    "name": "GCP Specialist",
-    "description": "Guides through Google Cloud Platform services and deployments.",
-    "category": "DevOps",
-    "tags": ["gcp", "cloud", "google"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🔵",
-    "image": "https://picsum.photos/seed/siapg-gcp-specialist/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "azure-guide",
-    "name": "Azure Guide",
-    "description": "Helps with Microsoft Azure infrastructure and services.",
-    "category": "DevOps",
-    "tags": ["azure", "cloud", "microsoft"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🟦",
-    "image": "https://picsum.photos/seed/siapg-azure-guide/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: k8s-helper\ndescription: Helps write and debug Kubernetes manifests, services, and ingresses.\n---\n\n# Kubernetes Helper\n\nHelps write and debug Kubernetes manifests, services, and ingresses.\n\n## When to use\n- Deploying to a cluster\n- A pod won't start\n\n## Tags\n`kubernetes` `k8s` `devops`\n"
   },
   {
     "id": "security-auditor",
     "name": "Security Auditor",
     "description": "Audits code for common vulnerabilities like injection, XSS, and secrets leaks.",
     "category": "Security",
-    "tags": ["security", "audit", "vulnerabilities"],
+    "tags": [
+      "security",
+      "audit",
+      "vulnerabilities"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🛡️",
     "image": "https://picsum.photos/seed/siapg-security-auditor/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: security-auditor\ndescription: Audits code for common vulnerabilities like injection, XSS, and secrets leaks.\n---\n\n# Security Auditor\n\nAudits code for common vulnerabilities like injection, XSS, and secrets leaks.\n\n## When to use\n- Before a release\n- Handling user input\n\n## Tags\n`security` `audit` `vulnerabilities`\n"
   },
   {
     "id": "password-policy",
     "name": "Auth & Password Policy",
     "description": "Designs strong authentication flows and password policies that users tolerate.",
     "category": "Security",
-    "tags": ["auth", "security", "passwords"],
+    "tags": [
+      "auth",
+      "security",
+      "passwords"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🔐",
     "image": "https://picsum.photos/seed/siapg-password-policy/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "encryption-expert",
-    "name": "Encryption Expert",
-    "description": "Guides through encryption algorithms, key management, and protocols.",
-    "category": "Security",
-    "tags": ["encryption", "crypto", "security"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🔒",
-    "image": "https://picsum.photos/seed/siapg-encryption-expert/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "oauth-specialist",
-    "name": "OAuth Specialist",
-    "description": "Implements OAuth2, OpenID Connect, and single sign-on patterns.",
-    "category": "Security",
-    "tags": ["oauth", "sso", "authentication"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🔑",
-    "image": "https://picsum.photos/seed/siapg-oauth-specialist/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "penetration-tester",
-    "name": "Penetration Tester",
-    "description": "Plans security testing, vulnerability assessments, and red team exercises.",
-    "category": "Security",
-    "tags": ["pentest", "security", "testing"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🎯",
-    "image": "https://picsum.photos/seed/siapg-penetration-tester/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "compliance-expert",
-    "name": "Compliance Expert",
-    "description": "Advises on GDPR, HIPAA, SOC2, and regulatory compliance.",
-    "category": "Security",
-    "tags": ["compliance", "gdpr", "regulations"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📋",
-    "image": "https://picsum.photos/seed/siapg-compliance-expert/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "incident-response",
-    "name": "Incident Response",
-    "description": "Plans incident response procedures, forensics, and recovery.",
-    "category": "Security",
-    "tags": ["incident", "forensics", "response"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🚨",
-    "image": "https://picsum.photos/seed/siapg-incident-response/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: password-policy\ndescription: Designs strong authentication flows and password policies that users tolerate.\n---\n\n# Auth & Password Policy\n\nDesigns strong authentication flows and password policies that users tolerate.\n\n## When to use\n- Building login\n- Hardening accounts\n\n## Tags\n`auth` `security` `passwords`\n"
   },
   {
     "id": "prompt-engineer",
     "name": "Prompt Engineer",
     "description": "Crafts and refines effective LLM prompts with clear structure and constraints.",
     "category": "AI",
-    "tags": ["ai", "prompts", "llm"],
+    "tags": [
+      "ai",
+      "prompts",
+      "llm"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🤖",
     "image": "https://picsum.photos/seed/siapg-prompt-engineer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: prompt-engineer\ndescription: Crafts and refines effective LLM prompts with clear structure and constraints.\n---\n\n# Prompt Engineer\n\nCrafts and refines effective LLM prompts with clear structure and constraints.\n\n## When to use\n- A prompt underperforms\n- Building an AI feature\n\n## Tags\n`ai` `prompts` `llm`\n"
   },
   {
     "id": "rag-builder",
     "name": "RAG Builder",
     "description": "Designs retrieval-augmented generation pipelines: chunking, embeddings, and retrieval.",
     "category": "AI",
-    "tags": ["rag", "ai", "search"],
+    "tags": [
+      "rag",
+      "ai",
+      "search"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "📚",
     "image": "https://picsum.photos/seed/siapg-rag-builder/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: rag-builder\ndescription: Designs retrieval-augmented generation pipelines: chunking, embeddings, and retrieval.\n---\n\n# RAG Builder\n\nDesigns retrieval-augmented generation pipelines: chunking, embeddings, and retrieval.\n\n## When to use\n- Grounding an LLM in docs\n- Building a knowledge bot\n\n## Tags\n`rag` `ai` `search`\n"
   },
   {
     "id": "agent-architect",
     "name": "Agent Architect",
     "description": "Plans multi-agent systems with clear roles, tools, and handoffs.",
     "category": "AI",
-    "tags": ["agents", "ai", "architecture"],
+    "tags": [
+      "agents",
+      "ai",
+      "architecture"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🧠",
     "image": "https://picsum.photos/seed/siapg-agent-architect/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "ml-engineer",
-    "name": "ML Engineer",
-    "description": "Builds machine learning pipelines with scikit-learn, TensorFlow, and PyTorch.",
-    "category": "AI",
-    "tags": ["ml", "ai", "tensorflow"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🧬",
-    "image": "https://picsum.photos/seed/siapg-ml-engineer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "nlp-specialist",
-    "name": "NLP Specialist",
-    "description": "Implements text processing, tokenization, embeddings, and language models.",
-    "category": "AI",
-    "tags": ["nlp", "ai", "text"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📝",
-    "image": "https://picsum.photos/seed/siapg-nlp-specialist/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "cv-specialist",
-    "name": "Computer Vision Specialist",
-    "description": "Builds image processing, object detection, and neural network models.",
-    "category": "AI",
-    "tags": ["cv", "vision", "ai"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "👁️",
-    "image": "https://picsum.photos/seed/siapg-cv-specialist/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "reinforcement-learning",
-    "name": "Reinforcement Learning",
-    "description": "Designs reward systems, policy optimization, and Q-learning algorithms.",
-    "category": "AI",
-    "tags": ["rl", "ai", "optimization"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🎮",
-    "image": "https://picsum.photos/seed/siapg-reinforcement-learning/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "data-scientist",
-    "name": "Data Scientist",
-    "description": "Performs end-to-end data science: EDA, modeling, and interpretation.",
-    "category": "AI",
-    "tags": ["datascience", "ml", "analysis"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🔬",
-    "image": "https://picsum.photos/seed/siapg-data-scientist/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: agent-architect\ndescription: Plans multi-agent systems with clear roles, tools, and handoffs.\n---\n\n# Agent Architect\n\nPlans multi-agent systems with clear roles, tools, and handoffs.\n\n## When to use\n- Designing an agent\n- Coordinating multiple tools\n\n## Tags\n`agents` `ai` `architecture`\n"
   },
   {
     "id": "meeting-notes",
     "name": "Meeting Notes",
     "description": "Turns raw transcripts into clean notes, decisions, and action items.",
     "category": "Productivity",
-    "tags": ["meetings", "notes", "productivity"],
+    "tags": [
+      "meetings",
+      "notes",
+      "productivity"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🗒️",
     "image": "https://picsum.photos/seed/siapg-meeting-notes/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: meeting-notes\ndescription: Turns raw transcripts into clean notes, decisions, and action items.\n---\n\n# Meeting Notes\n\nTurns raw transcripts into clean notes, decisions, and action items.\n\n## When to use\n- After a call\n- You have a transcript\n\n## Tags\n`meetings` `notes` `productivity`\n"
   },
   {
     "id": "task-planner",
     "name": "Task Planner",
     "description": "Breaks big goals into a prioritized, actionable task list.",
     "category": "Productivity",
-    "tags": ["planning", "tasks", "productivity"],
+    "tags": [
+      "planning",
+      "tasks",
+      "productivity"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "✅",
     "image": "https://picsum.photos/seed/siapg-task-planner/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: task-planner\ndescription: Breaks big goals into a prioritized, actionable task list.\n---\n\n# Task Planner\n\nBreaks big goals into a prioritized, actionable task list.\n\n## When to use\n- A project feels overwhelming\n- You need a plan\n\n## Tags\n`planning` `tasks` `productivity`\n"
   },
   {
     "id": "resume-builder",
     "name": "Resume Builder",
     "description": "Crafts polished, ATS-friendly resumes tailored to a role.",
     "category": "Productivity",
-    "tags": ["resume", "career", "writing"],
+    "tags": [
+      "resume",
+      "career",
+      "writing"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "📃",
     "image": "https://picsum.photos/seed/siapg-resume-builder/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "time-management",
-    "name": "Time Management",
-    "description": "Helps organize schedules, prioritize tasks, and minimize distractions.",
-    "category": "Productivity",
-    "tags": ["time", "management", "focus"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "⏰",
-    "image": "https://picsum.photos/seed/siapg-time-management/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "note-organizer",
-    "name": "Note Organizer",
-    "description": "Structures, tags, and links notes for easy retrieval and recall.",
-    "category": "Productivity",
-    "tags": ["notes", "organization", "productivity"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📝",
-    "image": "https://picsum.photos/seed/siapg-note-organizer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "goal-setter",
-    "name": "Goal Setter",
-    "description": "Creates SMART goals and tracks progress with milestones.",
-    "category": "Productivity",
-    "tags": ["goals", "planning", "tracking"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🎯",
-    "image": "https://picsum.photos/seed/siapg-goal-setter/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "project-manager",
-    "name": "Project Manager",
-    "description": "Plans projects, manages timelines, and tracks team progress.",
-    "category": "Productivity",
-    "tags": ["project", "management", "planning"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📊",
-    "image": "https://picsum.photos/seed/siapg-project-manager/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: resume-builder\ndescription: Crafts polished, ATS-friendly resumes tailored to a role.\n---\n\n# Resume Builder\n\nCrafts polished, ATS-friendly resumes tailored to a role.\n\n## When to use\n- Applying for jobs\n- Updating your CV\n\n## Tags\n`resume` `career` `writing`\n"
   },
   {
     "id": "seo-optimizer",
     "name": "SEO Optimizer",
     "description": "Optimizes content for search with keywords, structure, and metadata.",
     "category": "Marketing",
-    "tags": ["seo", "marketing", "content"],
+    "tags": [
+      "seo",
+      "marketing",
+      "content"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "📈",
     "image": "https://picsum.photos/seed/siapg-seo-optimizer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: seo-optimizer\ndescription: Optimizes content for search with keywords, structure, and metadata.\n---\n\n# SEO Optimizer\n\nOptimizes content for search with keywords, structure, and metadata.\n\n## When to use\n- Publishing an article\n- Traffic is low\n\n## Tags\n`seo` `marketing` `content`\n"
   },
   {
     "id": "ad-copywriter",
     "name": "Ad Copywriter",
     "description": "Writes high-converting ad copy and headlines for any platform.",
     "category": "Marketing",
-    "tags": ["ads", "copywriting", "marketing"],
+    "tags": [
+      "ads",
+      "copywriting",
+      "marketing"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "📢",
     "image": "https://picsum.photos/seed/siapg-ad-copywriter/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: ad-copywriter\ndescription: Writes high-converting ad copy and headlines for any platform.\n---\n\n# Ad Copywriter\n\nWrites high-converting ad copy and headlines for any platform.\n\n## When to use\n- Launching a campaign\n- CTR is weak\n\n## Tags\n`ads` `copywriting` `marketing`\n"
   },
   {
     "id": "social-scheduler",
     "name": "Social Scheduler",
     "description": "Plans a consistent social media calendar with post ideas and timing.",
     "category": "Marketing",
-    "tags": ["social", "marketing", "planning"],
+    "tags": [
+      "social",
+      "marketing",
+      "planning"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "📅",
     "image": "https://picsum.photos/seed/siapg-social-scheduler/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "email-marketer",
-    "name": "Email Marketer",
-    "description": "Designs email campaigns, sequences, and A/B testing strategies.",
-    "category": "Marketing",
-    "tags": ["email", "marketing", "campaigns"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📧",
-    "image": "https://picsum.photos/seed/siapg-email-marketer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "content-strategist",
-    "name": "Content Strategist",
-    "description": "Plans content calendars, themes, and distribution strategies.",
-    "category": "Marketing",
-    "tags": ["content", "strategy", "marketing"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📋",
-    "image": "https://picsum.photos/seed/siapg-content-strategist/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "influencer-guide",
-    "name": "Influencer Guide",
-    "description": "Advises on influencer marketing, partnerships, and campaigns.",
-    "category": "Marketing",
-    "tags": ["influencer", "marketing", "partnerships"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "⭐",
-    "image": "https://picsum.photos/seed/siapg-influencer-guide/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: social-scheduler\ndescription: Plans a consistent social media calendar with post ideas and timing.\n---\n\n# Social Scheduler\n\nPlans a consistent social media calendar with post ideas and timing.\n\n## When to use\n- You need a content plan\n- Posting feels random\n\n## Tags\n`social` `marketing` `planning`\n"
   },
   {
     "id": "paper-summarizer",
     "name": "Paper Summarizer",
     "description": "Summarizes academic papers into plain-language findings and methods.",
     "category": "Research",
-    "tags": ["research", "papers", "summary"],
+    "tags": [
+      "research",
+      "papers",
+      "summary"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "🔬",
     "image": "https://picsum.photos/seed/siapg-paper-summarizer/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: paper-summarizer\ndescription: Summarizes academic papers into plain-language findings and methods.\n---\n\n# Paper Summarizer\n\nSummarizes academic papers into plain-language findings and methods.\n\n## When to use\n- Reading a dense paper\n- Doing a lit review\n\n## Tags\n`research` `papers` `summary`\n"
   },
   {
     "id": "fact-checker",
     "name": "Fact Checker",
     "description": "Verifies claims against reliable sources and flags weak evidence.",
     "category": "Research",
-    "tags": ["research", "fact-check", "verification"],
+    "tags": [
+      "research",
+      "fact-check",
+      "verification"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "✔️",
     "image": "https://picsum.photos/seed/siapg-fact-checker/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: fact-checker\ndescription: Verifies claims against reliable sources and flags weak evidence.\n---\n\n# Fact Checker\n\nVerifies claims against reliable sources and flags weak evidence.\n\n## When to use\n- A claim seems off\n- Before citing something\n\n## Tags\n`research` `fact-check` `verification`\n"
   },
   {
     "id": "market-researcher",
     "name": "Market Researcher",
     "description": "Researches markets, competitors, and trends into a clear brief.",
     "category": "Research",
-    "tags": ["research", "market", "business"],
+    "tags": [
+      "research",
+      "market",
+      "business"
+    ],
     "author": "SIA PG",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "icon": "📊",
     "image": "https://picsum.photos/seed/siapg-market-researcher/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "literature-review",
-    "name": "Literature Review",
-    "description": "Synthesizes academic literature into comprehensive reviews.",
-    "category": "Research",
-    "tags": ["research", "literature", "synthesis"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "📚",
-    "image": "https://picsum.photos/seed/siapg-literature-review/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "hypothesis-generator",
-    "name": "Hypothesis Generator",
-    "description": "Develops testable hypotheses and experimental designs.",
-    "category": "Research",
-    "tags": ["research", "hypothesis", "science"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🔭",
-    "image": "https://picsum.photos/seed/siapg-hypothesis-generator/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
-  },
-  {
-    "id": "debate-coach",
-    "name": "Debate Coach",
-    "description": "Prepares arguments, counterarguments, and debate strategies.",
-    "category": "Research",
-    "tags": ["debate", "arguments", "critical-thinking"],
-    "author": "SIA PG",
-    "version": "2.0.0",
-    "icon": "🎤",
-    "image": "https://picsum.photos/seed/siapg-debate-coach/640/400",
-    "homepage": "https://github.com/SeevPs/SIA-PG"
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: market-researcher\ndescription: Researches markets, competitors, and trends into a clear brief.\n---\n\n# Market Researcher\n\nResearches markets, competitors, and trends into a clear brief.\n\n## When to use\n- Validating an idea\n- Sizing a market\n\n## Tags\n`research` `market` `business`\n"
   }
 ]
