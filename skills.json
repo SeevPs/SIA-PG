@@ -786,5 +786,81 @@
     "image": "https://picsum.photos/seed/siapg-discord-bot-node/640/400",
     "homepage": "https://github.com/SeevPs/SIA-PG",
     "content": "---\nname: discord-bot-node\ndescription: Builds powerful, production-ready Discord bots in Node.js using discord.js v14 with dynamic handlers, slash commands, and robust events architecture.\n---\n\n# Discord Bot (Node.js)\n\n> Builds powerful, production-ready Discord bots in Node.js using discord.js v14 with dynamic handlers, slash commands, and robust events architecture.\n\n## Overview\nA senior-engineer Discord bot generator. It structures advanced, production-ready Node.js bots with discord.js v14, dynamic command registers, event emitters, and interactive UI components.\n\n## Capabilities\n- Employs modular client command collection handler\n- Implements automated event listener bindings\n- Configures global slash command push script\n- Resolves rich button, select menu, and modal interactions\n- Connects database clients seamlessly\n\n## How it works\n1. Analyze bot commands, intents, and gateway needs.\n2. Output main entrypoint and registration setup.\n3. Create dynamic slash command file structure.\n4. Wire up events and interactive button listeners.\n5. Output full ready-to-run Javascript code files.\n\n## When to use\n- Creating a new Discord bot in Node.js\n- Refactoring event/command handler layouts\n\n## Best practices\n- Separate logic handlers from raw client listeners.\n- Never write comments inside the code.\n- Ensure environment variables are loaded securely.\n\n## Example\n```\nCreate a Node.js Discord bot using discord.js v14 with dynamic command handlers.\n```\n\n## Output\nA robust, complete Node.js Discord bot codebase with slash command register, handlers, and listener templates.\n\n## Tags\n`discord` `node` `bot` `javascript` `development`\n"
+  },
+  {
+    "id": "fivem-developer",
+    "name": "FiveM Developer",
+    "description": "Builds highly optimized, standalone or framework-based FiveM scripts, UI/NUI integration, and server-client event architectures.",
+    "category": "Development",
+    "tags": [
+      "fivem",
+      "gta5",
+      "lua",
+      "nui",
+      "development"
+    ],
+    "author": "SIA PG",
+    "version": "1.0.0",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"3\"/><path d=\"M6 12h4M8 10v4M15 11h.01M18 13h.01M18 10h.01M15 13h.01\"/></svg>",
+    "image": "https://picsum.photos/seed/siapg-fivem-developer/640/400",
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: fivem-developer\ndescription: Builds highly optimized, standalone or framework-based FiveM scripts, UI/NUI integration, and server-client event architectures.\n---\n\n# FiveM Developer\n\n> Builds highly optimized, standalone or framework-based FiveM scripts, UI/NUI integration, and server-client event architectures.\n\n## Overview\nA senior FiveM developer designed to build, refactor, optimize, and document high-performance GTA V multiplayer scripts. It handles client-server communications, framework adaptions, database persistence, NUI frontends, and performance profiling.\n\n## Capabilities\n- Creates standalone scripts and integrates QBCore/ESX frameworks\n- Implements optimized thread loops with dynamic wait times\n- Designs secure client-to-server net event mechanisms\n- Integrates NUI callback handlers with React/Vue frontends\n- Migrates legacy scripts to modern resource manifests\n\n## How it works\n1. Parse client/server architecture requirements.\n2. Generate optimized lua files with low resource usages.\n3. Configure fxmanifest.lua with correct dependencies.\n4. Establish custom net event security checkpoints.\n5. Deliver ready-to-run resource packages.\n\n## When to use\n- Coding new FiveM game features or job systems\n- Optimizing high CPU-time scripts to reduce resmon usage\n- Refactoring framework-dependent scripts to standalone\n\n## Best practices\n- Keep resmon performance low by avoiding redundant loops.\n- Never write comments inside the code.\n- Always validate net event payloads server-side.\n\n## Example\n```\nRefactor this QBCore script to be fully standalone and reduce thread execution time.\n```\n\n## Output\nA complete FiveM resource structure containing fxmanifest.lua, client, server, and HTML/NUI callback setups.\n\n## Tags\n`fivem` `gta5` `lua` `nui` `development`\n"
+  },
+  {
+    "id": "qbcore-developer",
+    "name": "QBCore Developer",
+    "description": "Builds advanced, optimized game resources specifically tailored for the QBCore framework, including job systems, items, player metadata, and databases.",
+    "category": "Development",
+    "tags": [
+      "fivem",
+      "qbcore",
+      "lua",
+      "gta5",
+      "development"
+    ],
+    "author": "SIA PG",
+    "version": "1.0.0",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5\"/></svg>",
+    "image": "https://picsum.photos/seed/siapg-qbcore-developer/640/400",
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: qbcore-developer\ndescription: Builds advanced, optimized game resources specifically tailored for the QBCore framework, including job systems, items, player metadata, and databases.\n---\n\n# QBCore Developer\n\n> Builds advanced, optimized game resources specifically tailored for the QBCore framework, including job systems, items, player metadata, and databases.\n\n## Overview\nA senior QBCore framework developer specializing in creating high-quality FiveM scripts that fully utilize the QB ecosystem. It manages QB-Core exports, player inventory metadata, key-binds, database integrations, target systems, and menu configurations.\n\n## Capabilities\n- Utilizes modern QBCore exports and callback systems\n- Interfaces with qb-inventory, custom items, and metadata\n- Implements qb-target interactions for optimal scripting performance\n- Configures complex jobs, grades, and permissions\n- Manages oxmysql integrations for user data storage\n\n## How it works\n1. Parse system features and QBCore framework requirements.\n2. Structure client and server scripts with standard QB-Core imports.\n3. Configure items in shared configuration structures.\n4. Establish security checkpoints for server-side exports and event calls.\n5. Package the resource with accurate fxmanifest files.\n\n## When to use\n- Designing custom QBCore jobs, gangs, or stores\n- Updating legacy QB scripts to use modern exports instead of triggers\n- Integrating target triggers for better performance\n\n## Best practices\n- Always fetch the player data object server-side before processing events.\n- Never write comments inside the code.\n- Minimize direct database queries by leveraging QBCore server structures.\n\n## Example\n```\nCreate a custom QBCore delivery job with item rewards, vehicle spawners, and qb-target integration.\n```\n\n## Output\nA complete QBCore resource package including client/server code, shared config entries, SQL tables, and item register structures.\n\n## Tags\n`fivem` `qbcore` `lua` `gta5` `development`\n"
+  },
+  {
+    "id": "esx-developer",
+    "name": "ESX Developer",
+    "description": "Builds robust, legacy and modern ESX framework scripts for FiveM, including jobs, society funds, billing, inventory, and database systems.",
+    "category": "Development",
+    "tags": [
+      "fivem",
+      "esx",
+      "lua",
+      "gta5",
+      "development"
+    ],
+    "author": "SIA PG",
+    "version": "1.0.0",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z\"/><polyline points=\"3.27 6.96 12 12.01 20.73 6.96\"/><line x1=\"12\" y1=\"22.08\" x2=\"12\" y2=\"12\"/></svg>",
+    "image": "https://picsum.photos/seed/siapg-esx-developer/640/400",
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: esx-developer\ndescription: Builds robust, legacy and modern ESX framework scripts for FiveM, including jobs, society funds, billing, inventory, and database systems.\n---\n\n# ESX Developer\n\n> Builds robust, legacy and modern ESX framework scripts for FiveM, including jobs, society funds, billing, inventory, and database systems.\n\n## Overview\nA senior ESX framework developer specializing in both legacy (v1-final) and modern (ESX Legacy) FiveM resource architectures. It handles ESX shared objects, society accounts, billing interfaces, inventory management, and database synchronization.\n\n## Capabilities\n- Integrates ESX client/server triggers and export systems\n- Interacts with esx_society and society money management\n- Configures item metadata and custom inventory rules\n- Implements custom billing, job menus, and vehicle lockers\n- Structures sql-ready tables for persistent data storing\n\n## How it works\n1. Parse script functionality and ESX version dependencies.\n2. Output optimized client-server code structures using ESX objects.\n3. Configure DB integration and server callbacks for player validation.\n4. Establish custom menu interfaces and user action keys.\n5. Bundle the files into a clean FiveM resource folder.\n\n## When to use\n- Designing custom ESX jobs, shops, or player UI panels\n- Upgrading old triggers to new ESX Legacy exports\n- Restructuring society-based access and permissions\n\n## Best practices\n- Always verify player permissions and funds server-side.\n- Never write comments inside the code.\n- Prevent sql injections by using parameterized queries.\n\n## Example\n```\nCreate an ESX mechanic job with society billing, repair kits, and vehicle customizers.\n```\n\n## Output\nA complete ESX-ready resource with client/server files, SQL files, items config, and manifest definition.\n\n## Tags\n`fivem` `esx` `lua` `gta5` `development`\n"
+  },
+  {
+    "id": "fivem-nui-developer",
+    "name": "FiveM NUI Developer",
+    "description": "Builds highly responsive, clean, in-game integrated web interfaces (NUI) for FiveM scripts, prioritizing clean layouts, vector icons, and zero distracting glows or emojis.",
+    "category": "Development",
+    "tags": [
+      "fivem",
+      "nui",
+      "html",
+      "css",
+      "javascript"
+    ],
+    "author": "SIA PG",
+    "version": "1.0.0",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"3\" width=\"20\" height=\"14\" rx=\"2\" ry=\"2\"/><line x1=\"8\" y1=\"21\" x2=\"16\" y2=\"21\"/><line x1=\"12\" y1=\"17\" x2=\"12\" y2=\"21\"/></svg>",
+    "image": "https://picsum.photos/seed/siapg-fivem-nui-developer/640/400",
+    "homepage": "https://github.com/SeevPs/SIA-PG",
+    "content": "---\nname: fivem-nui-developer\ndescription: Builds highly responsive, clean, in-game integrated web interfaces (NUI) for FiveM scripts, prioritizing clean layouts, vector icons, and zero distracting glows or emojis.\n---\n\n# FiveM NUI Developer\n\n> Builds highly responsive, clean, in-game integrated web interfaces (NUI) for FiveM scripts, prioritizing clean layouts, vector icons, and zero distracting glows or emojis.\n\n## Overview\nA specialized frontend designer for FiveM NUI (HTML/CSS/JS/React). It focuses on immersive, clean, low-latency interfaces that fit the GTA V aesthetic natively. It avoids neon glows, floating elements, or emojis, favoring sharp alignments, flat designs, and SVG icons.\n\n## Capabilities\n- Designs clean, flat, immersive hud and menu components\n- Employs SVGs for all ui iconography rather than emojis\n- Standardizes ESC key listeners and focus release handlers\n- Integrates native post callback handlers for client scripts\n- Builds responsive grid configurations that adapt to all resolutions\n\n## How it works\n1. Parse interface blueprint and event specifications.\n2. Structure the HTML skeleton using clean layout containers.\n3. Apply flat, game-native CSS variables and styling.\n4. Set up bidirectional NUI messaging listeners and post endpoints.\n5. Package files cleanly into the FiveM resource.\n\n## When to use\n- Building in-game laptop interfaces, shop menus, or radial dashboards\n- Creating clean scoreboard overlays or inventory HUDs\n- Restructuring bulky web-style UIs into in-game style NUI components\n\n## Best practices\n- Never write comments inside the code.\n- Always use vector SVG icons instead of emojis.\n- Avoid all glows, neon borders, and futuristic/distracting background effects.\n- Bind the escape key globally to close UI and return focus.\n\n## Example\n```\nDesign a clean vehicle dealer menu with grid layout, SVG vector icons, and flat black colors.\n```\n\n## Output\nA complete FiveM NUI frontend package containing html, styled css, script callbacks, and gta-matching design elements.\n\n## Tags\n`fivem` `nui` `html` `css` `javascript`\n"
   }
 ]
