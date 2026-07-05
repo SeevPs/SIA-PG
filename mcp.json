@@ -1,1 +1,143 @@
-[]
+{
+  "version": 1,
+  "servers": [
+    {
+      "id": "filesystem",
+      "name": "Filesystem",
+      "category": "Developer Tools",
+      "description": "Read, write, and manage files inside a specific local directory.",
+      "type": "local",
+      "command": "npx -y @modelcontextprotocol/server-filesystem /path/to/allowed/directory",
+      "requires": ["A local directory path — edit the command above"],
+      "docs": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem"
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "category": "Developer Tools",
+      "description": "Read commit history, diffs, and branches of a local git repository.",
+      "type": "local",
+      "command": "uvx mcp-server-git --repository /path/to/repo",
+      "requires": ["A local git repository path — edit the command above", "uv / uvx installed"],
+      "docs": "https://github.com/modelcontextprotocol/servers/tree/main/src/git"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "category": "Developer Tools",
+      "description": "Search code, and manage issues and pull requests on GitHub.",
+      "type": "remote",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": { "Authorization": "" },
+      "requires": ["A GitHub personal access token — paste it as \"Bearer <token>\" in the Authorization header"],
+      "docs": "https://github.com/github/github-mcp-server"
+    },
+    {
+      "id": "everything",
+      "name": "Everything",
+      "category": "Developer Tools",
+      "description": "Reference server exercising the full MCP feature set — useful for testing your setup.",
+      "type": "local",
+      "command": "npx -y @modelcontextprotocol/server-everything",
+      "docs": "https://github.com/modelcontextprotocol/servers/tree/main/src/everything"
+    },
+    {
+      "id": "memory",
+      "name": "Memory",
+      "category": "AI & Memory",
+      "description": "Persistent knowledge graph memory that carries context across conversations.",
+      "type": "local",
+      "command": "npx -y @modelcontextprotocol/server-memory",
+      "docs": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory"
+    },
+    {
+      "id": "sequential-thinking",
+      "name": "Sequential Thinking",
+      "category": "AI & Memory",
+      "description": "Structured, step-by-step reasoning for breaking down complex problems.",
+      "type": "local",
+      "command": "npx -y @modelcontextprotocol/server-sequential-thinking",
+      "docs": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking"
+    },
+    {
+      "id": "fetch",
+      "name": "Fetch",
+      "category": "Search & Web",
+      "description": "Fetches web pages and converts them into clean, readable content.",
+      "type": "local",
+      "command": "uvx mcp-server-fetch",
+      "requires": ["uv / uvx installed"],
+      "docs": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch"
+    },
+    {
+      "id": "brave-search",
+      "name": "Brave Search",
+      "category": "Search & Web",
+      "description": "Web and local search powered by the Brave Search API.",
+      "type": "local",
+      "command": "npx -y @modelcontextprotocol/server-brave-search",
+      "environment": { "BRAVE_API_KEY": "" },
+      "requires": ["A Brave Search API key"],
+      "docs": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search"
+    },
+    {
+      "id": "playwright",
+      "name": "Playwright",
+      "category": "Browser & Testing",
+      "description": "Automate and inspect real web pages with a full browser.",
+      "type": "local",
+      "command": "npx -y @playwright/mcp@latest",
+      "docs": "https://github.com/microsoft/playwright-mcp"
+    },
+    {
+      "id": "puppeteer",
+      "name": "Puppeteer",
+      "category": "Browser & Testing",
+      "description": "Headless Chrome browser automation and screenshots.",
+      "type": "local",
+      "command": "npx -y @modelcontextprotocol/server-puppeteer",
+      "docs": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer"
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "category": "Productivity",
+      "description": "Read and post messages, and manage channels in Slack.",
+      "type": "local",
+      "command": "npx -y @modelcontextprotocol/server-slack",
+      "environment": { "SLACK_BOT_TOKEN": "", "SLACK_TEAM_ID": "" },
+      "requires": ["A Slack bot token", "A Slack team ID"],
+      "docs": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack"
+    },
+    {
+      "id": "gdrive",
+      "name": "Google Drive",
+      "category": "Productivity",
+      "description": "Search and read files from Google Drive.",
+      "type": "local",
+      "command": "npx -y @modelcontextprotocol/server-gdrive",
+      "requires": ["Google OAuth credentials — see docs"],
+      "docs": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive"
+    },
+    {
+      "id": "postgres",
+      "name": "PostgreSQL",
+      "category": "Data & Storage",
+      "description": "Read-only access to a PostgreSQL database's schema and data.",
+      "type": "local",
+      "command": "npx -y @modelcontextprotocol/server-postgres postgresql://user:password@host:port/database",
+      "requires": ["A PostgreSQL connection string — edit the command above"],
+      "docs": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres"
+    },
+    {
+      "id": "sqlite",
+      "name": "SQLite",
+      "category": "Data & Storage",
+      "description": "Query and inspect a local SQLite database.",
+      "type": "local",
+      "command": "uvx mcp-server-sqlite --db-path /path/to/database.db",
+      "requires": ["A SQLite database file path — edit the command above", "uv / uvx installed"],
+      "docs": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite"
+    }
+  ]
+}
