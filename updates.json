@@ -1,33 +1,15 @@
-[
-  {
-    "id": "v1-1-6",
-    "version": "v1.1.6",
-    "title": "SIA PG v1.1.6 — Zero-Latency Engine & Autonomous Workspace Refactoring",
-    "date": "July 28, 2026",
-    "category": "Major Release",
-    "icon": "fa-solid fa-rocket",
-    "imageUrl": "assets/hero.png",
-    "author": "SIA PG Core Team",
-    "highlights": [
-      "18ms local token streaming with spec prediction",
-      "Multi-file dependency graph refactoring engine",
-      "Full GitHub Release integration for desktop installers"
-    ],
-    "content": "### What's New in Version 1.1.6\n\nWe are thrilled to announce **SIA PG v1.1.6**, bringing massive speed gains, deeper codebase context understanding, and seamless multi-file execution.\n\n#### Key Features & Improvements\n\n- **18ms Local Streaming**: Speculative neural token prediction for instantaneous inline code completions.\n- **Multi-File Context Engine**: Automatically parses AST trees, database schemas, and API routes across your entire workspace.\n- **Automated Refactoring**: Perform macro structural changes across hundreds of modules while guaranteeing non-breaking type signatures.\n\n```typescript\nimport { SiaEngine } from 'sia-pg';\n\nconst agent = new SiaEngine({\n  privacyMode: 'zero-retention',\n  speculativeStreaming: true\n});\n\nawait agent.refactor({\n  goal: 'Upgrade database query layer to async transaction pipeline'\n});\n```\n\n#### Security & Privacy Guarantee\n> Your codebase is protected with local-first processing and zero global training retention. Enterprise encryption applies to all hybrid cloud interactions.\n\nDownload the latest release candidate directly from the [Download Center](#)!"
-  },
-  {
-    "id": "v1-1-0",
-    "version": "v1.1.0",
-    "title": "SIA PG v1.1.0 — Enterprise Privacy Guard & Live Stack Diagnostics",
-    "date": "July 15, 2026",
-    "category": "Feature Update",
-    "icon": "fa-solid fa-shield-halved",
-    "imageUrl": "",
-    "author": "SIA PG Security Team",
-    "highlights": [
-      "End-to-end zero retention encryption",
-      "Automated stack trace analysis & sandbox verification"
-    ],
-    "content": "### Enterprise Privacy & Live Diagnostics\n\nVersion 1.1.0 introduces **Live Diagnostics**, enabling SIA Code to automatically detect broken test assertions and propose verified patch solutions.\n\n#### Improvements\n- **Automated Stack Trace Parsing**: Resolves runtime exceptions instantly.\n- **Local Fallback Mode**: Run lightweight models fully offline when disconnected from network."
-  }
-]
+{
+  "id": "v1-1-6",
+  "version": "v1.1.6",
+  "title": "SIA PG v1.1.6 — Official Public Launch",
+  "date": "July 28, 2026",
+  "category": "Major Release",
+  "icon": "fa-solid fa-rocket",
+  "imageUrl": "assets/hero.png",
+  "author": "SIA PG Core Team",
+  "highlights": [
+    "Official public launch for everyone",
+    "Three AI workspaces: Coder, Imagine & Website",
+    "Built-in SIA IDE with MCP & Skills support"
+  ],
+"content": "### Welcome to SIA PG\n\nToday marks the official public launch of **SIA PG**. After months of development, the platform is now available for everyone with a unified AI workspace built for developers, creators, and teams.\n\n#### Workspaces\n\n- **Coder**: A powerful AI coding agent comparable to modern development assistants such as Claude, Codex, and OpenCode. Generate code, debug projects, refactor entire codebases, explain complex architectures, and work across multiple files with deep project understanding.\n\n- **Imagine**: Generate high-quality AI images from simple prompts. Create concepts, UI assets, icons, illustrations, marketing graphics, game art, and more with fast rendering and professional-quality results.\n\n- **Website**: Build complete websites and web applications with an AI workflow inspired by modern visual builders. Generate full projects, edit layouts instantly, connect backends, and iterate rapidly.\n\n#### Powerful Features\n\n- **Live Edit Inspector**: Edit any website visually in real time. Select elements directly, inspect their structure, modify layouts, spacing, typography, colors, and components with instant live updates.\n\n- **MCP Integration**: Connect AI to external tools, services, APIs, databases, and workflows through Model Context Protocol for seamless automation.\n\n- **Skills System**: Extend the AI with reusable skills that automate complex workflows, development tasks, project templates, and custom operations.\n\n- **Built-in SIA IDE**: Develop without leaving SIA PG. The integrated IDE includes an intelligent file explorer, terminal, code editor, AI chat, project management, and workspace tools in one environment.\n\n```typescript\nimport { SIA } from 'sia-pg';\n\nconst app = new SIA();\n\nawait app.open({\n  workspace: 'Coder',\n  project: './my-project'\n});\n```\n\n#### Everything in One Platform\n\nWhether you're writing production code, designing websites, generating AI images, or automating complex workflows, **SIA PG** brings everything together inside a single intelligent platform.\n\nWelcome to the future of AI-powered development.\n\n---\n\n# 🇸🇦 العربية\n\n### مرحبًا بكم في SIA PG\n\nاليوم نعلن رسميًا عن **الإطلاق العام لتطبيق SIA PG** ليصبح متاحًا للجميع. بعد أشهر من التطوير، أصبح بإمكان المطورين، والمصممين، وصنّاع المحتوى العمل داخل منصة موحدة تجمع كل أدوات الذكاء الاصطناعي في مكان واحد.\n\n#### أقسام التطبيق\n\n- **Coder**: وكيل ذكاء اصطناعي متقدم للبرمجة، يقدم تجربة مشابهة لأفضل أدوات البرمجة الحديثة مثل Claude وCodex وOpenCode. يساعدك على كتابة الأكواد، إصلاح الأخطاء، إعادة هيكلة المشاريع، وفهم قواعد الأكواد الكبيرة والعمل على عدة ملفات في وقت واحد.\n\n- **Imagine**: أنشئ صورًا احترافية باستخدام الذكاء الاصطناعي من خلال أوامر نصية بسيطة، سواء كانت تصاميم، شعارات، واجهات، رسومات، أو أي محتوى بصري آخر.\n\n- **Website**: أنشئ مواقع وتطبيقات ويب كاملة بسهولة، مع تجربة مستوحاة من أدوات البناء الحديثة، وإنشاء المشاريع وتعديلها وربطها بالخدمات المختلفة بسرعة ومرونة.\n\n#### المميزات الرئيسية\n\n- **Live Edit Inspector**: محرر بصري متقدم يسمح لك بتعديل أي موقع بشكل مباشر، واختيار العناصر وتغيير الألوان والخطوط والتخطيط والمسافات مع مشاهدة النتيجة فورًا.\n\n- **دعم MCP**: اربط الذكاء الاصطناعي بالأدوات الخارجية، وقواعد البيانات، وواجهات البرمجة (APIs)، والخدمات المختلفة لتوسيع قدراته.\n\n- **Skills System**: أنشئ مهارات مخصصة تعيد استخدامها لأتمتة المهام، وإنشاء القوالب، وتنفيذ العمليات المعقدة بضغطة واحدة.\n\n- **SIA IDE**: بيئة تطوير متكاملة مدمجة داخل التطبيق، تضم محرر أكواد، مستكشف ملفات، طرفية (Terminal)، محادثة مع الذكاء الاصطناعي، وإدارة كاملة للمشاريع دون الحاجة إلى مغادرة التطبيق.\n\n#### كل ما تحتاجه في منصة واحدة\n\nسواء كنت تكتب الأكواد، أو تنشئ الصور، أو تبني مواقع الويب، أو تؤتمت سير عملك، فإن **SIA PG** يجمع كل ذلك داخل منصة واحدة قوية وسريعة.\n\n**مرحبًا بك في مستقبل التطوير بالذكاء الاصطناعي.**"}
