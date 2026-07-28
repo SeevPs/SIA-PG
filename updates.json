@@ -1,1 +1,33 @@
-{}
+[
+  {
+    "id": "v1-1-6",
+    "version": "v1.1.6",
+    "title": "SIA PG v1.1.6 — Zero-Latency Engine & Autonomous Workspace Refactoring",
+    "date": "July 28, 2026",
+    "category": "Major Release",
+    "icon": "fa-solid fa-rocket",
+    "imageUrl": "assets/hero.png",
+    "author": "SIA PG Core Team",
+    "highlights": [
+      "18ms local token streaming with spec prediction",
+      "Multi-file dependency graph refactoring engine",
+      "Full GitHub Release integration for desktop installers"
+    ],
+    "content": "### What's New in Version 1.1.6\n\nWe are thrilled to announce **SIA PG v1.1.6**, bringing massive speed gains, deeper codebase context understanding, and seamless multi-file execution.\n\n#### Key Features & Improvements\n\n- **18ms Local Streaming**: Speculative neural token prediction for instantaneous inline code completions.\n- **Multi-File Context Engine**: Automatically parses AST trees, database schemas, and API routes across your entire workspace.\n- **Automated Refactoring**: Perform macro structural changes across hundreds of modules while guaranteeing non-breaking type signatures.\n\n```typescript\nimport { SiaEngine } from 'sia-pg';\n\nconst agent = new SiaEngine({\n  privacyMode: 'zero-retention',\n  speculativeStreaming: true\n});\n\nawait agent.refactor({\n  goal: 'Upgrade database query layer to async transaction pipeline'\n});\n```\n\n#### Security & Privacy Guarantee\n> Your codebase is protected with local-first processing and zero global training retention. Enterprise encryption applies to all hybrid cloud interactions.\n\nDownload the latest release candidate directly from the [Download Center](#)!"
+  },
+  {
+    "id": "v1-1-0",
+    "version": "v1.1.0",
+    "title": "SIA PG v1.1.0 — Enterprise Privacy Guard & Live Stack Diagnostics",
+    "date": "July 15, 2026",
+    "category": "Feature Update",
+    "icon": "fa-solid fa-shield-halved",
+    "imageUrl": "",
+    "author": "SIA PG Security Team",
+    "highlights": [
+      "End-to-end zero retention encryption",
+      "Automated stack trace analysis & sandbox verification"
+    ],
+    "content": "### Enterprise Privacy & Live Diagnostics\n\nVersion 1.1.0 introduces **Live Diagnostics**, enabling SIA Code to automatically detect broken test assertions and propose verified patch solutions.\n\n#### Improvements\n- **Automated Stack Trace Parsing**: Resolves runtime exceptions instantly.\n- **Local Fallback Mode**: Run lightweight models fully offline when disconnected from network."
+  }
+]
