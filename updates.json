@@ -7,12 +7,12 @@
   "icon": "fa-solid fa-bolt",
   "imageUrl": "assets/hero.png",
   "author": "SIA PG Core Team",
-  "highlights": [
-    "تطوير واجهة المستخدم وتحديث التفاعل البصري",
-    "تحسين سرعة الاستجابة ومعالجة الذكاء الاصطناعي (AI)",
-    "تسهيل التعامل مع البرنامج وتبسيط تجربة المستخدم",
-    "رفع كفاءة وسرعة استجابة النظام بشكل عام"
-  ],
+"highlights": [
+"Developing the user interface and enhancing visual interactions",
+"Improving response speed and AI processing",
+"Simplifying program usage and enhancing the user experience",
+"Increasing the overall system efficiency and responsiveness"
+],
   "content": "### تحديث v1.2.1\n\nيركز هذا التحديث على رفع كفاءة النظام وتحسين تجربة الاستخدام:\n\n- **واجهة المستخدم**: تطوير وتحديث عناصر الواجهة لتقديم تجربة أكثر سلاسة.\n- **سرعة الـ AI**: تسريع معالجة واستجابة نماذج الذكاء الاصطناعي.\n- **سهولة البرنامج**: تحسين التصفح وتسهيل الوصول لأدوات البرنامج.\n- **سرعة الاستجابة**: رفع الأداء العام وتسريع تنفيذ الأوامر والطلبات."
 },
 {
