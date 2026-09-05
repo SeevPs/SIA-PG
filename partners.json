@@ -5,30 +5,25 @@
   "discordUrl": "https://discord.com/invite/GBnudJKHsS",
   "contactEmail": "partners@sia-code.online",
   "partners": [
-{
-"id": "botfiy-store",
-"name": "Botfiy Store",
-"tagline": "Official Discord Bots, FiveM & Development Partner",
-"category": "Development & Digital Store",
-"tier": "Strategic Partner",
-"featured": true,
-"verified": true,
-"logo": "https://raw.githubusercontent.com/SeevPs/SIA-PG/refs/heads/main/Partners/a_8755d64712307bf6a089231cacada334.webp",
-"banner": "https://raw.githubusercontent.com/SeevPs/SIA-PG/refs/heads/main/Partners/a_34ac49c3d4148f3c6e35a7cc106d6ae4.gif",
-"description": "متجر متخصص في تطوير وبيع بوتات Discord وحلول FiveM والخدمات البرمجية، يقدم أنظمة احترافية وحلولًا مخصصة بأداء واستقرار عالٍ، مع دعم فني متخصص لخدمة مجتمع SIA PG.",
-"url": "https://discord.gg/gAQveAQGxs",
-"socials": {
-"website": "https://discord.gg/gAQveAQGxs",
-"discord": "https://discord.gg/gAQveAQGxs"
-},
-"perks": [
-"بوتات Discord احترافية ومخصصة",
-"برمجة وتطوير أنظمة FiveM",
-"خدمات وحلول برمجية حسب الطلب",
-"دعم فني مباشر"
-],
-"quote": "فخورون بشراكتنا مع SIA PG لتقديم أفضل حلول البرمجة وبوتات Discord وأنظمة FiveM للمجتمع.",
-"since": "2025",
-}
+    {
+      "id": "botfiy-store",
+      "name": "Botfiy Store",
+      "tagline": "Official Discord Bots, FiveM & Development Partner",
+      "category": "Development & Digital Store",
+      "tier": "Strategic Partner",
+      "featured": true,
+      "verified": true,
+      "logo": "https://raw.githubusercontent.com/SeevPs/SIA-PG/refs/heads/main/Partners/a_8755d64712307bf6a089231cacada334.webp",
+      "banner": "https://raw.githubusercontent.com/SeevPs/SIA-PG/refs/heads/main/Partners/a_8755d64712307bf6a089231cacada334.webp",
+      "url": "https://discord.com/invite/GBnudJKHsS",
+      "socials": {
+        "discord": "https://discord.com/invite/GBnudJKHsS"
+      },
+      "perks": [
+        "Discord Bots",
+        "FiveM Development",
+        "Digital Services"
+      ]
+    }
   ]
 }
