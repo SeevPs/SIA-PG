@@ -2,7 +2,7 @@
   "title": "Our Partners",
   "subtitle": "نعتز ونفخر بنخبة شركائنا الاستراتيجيين الذين يشاركوننا رؤية الابتكار والريادة",
   "description": "نعمل جنباً إلى جنب مع كبرى منصات الاستضافة، مزودي السيرفرات، ومطوري حلول الذكاء الاصطناعي لتقديم بيئة برمجية متكاملة تليق بمجتمع SIA PG.",
-  "discordUrl": "https://discord.com/invite/GBnudJKHsS",
+  "discordUrl": "https://discord.gg/uqYcdN4FFq",
   "contactEmail": "partners@sia-code.online",
   "partners": [
     {
@@ -15,9 +15,9 @@
       "verified": true,
       "logo": "https://raw.githubusercontent.com/SeevPs/SIA-PG/refs/heads/main/Partners/a_8755d64712307bf6a089231cacada334.webp",
       "banner": "https://raw.githubusercontent.com/SeevPs/SIA-PG/refs/heads/main/Partners/a_34ac49c3d4148f3c6e35a7cc106d6ae4.gif",
-      "url": "https://discord.com/invite/GBnudJKHsS",
+      "url": "https://discord.gg/uqYcdN4FFq",
       "socials": {
-        "discord": "https://discord.com/invite/GBnudJKHsS"
+        "discord": "https://discord.gg/uqYcdN4FFq"
       },
       "perks": [
         "Discord Bots",
