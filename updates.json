@@ -1,14 +1,43 @@
 [
     {
+        "id": "v1-2-4",
+        "version": "v1.2.4",
+        "title": "SIA PG v1.2.4 — Arabic Localization (87%), System Reset, Model Fixes & 14-Day Pro Trial",
+        "images": [
+            {
+                "id": 1,
+                "url": "https://raw.githubusercontent.com/SeevPs/SIA-PG/refs/heads/main/siacontent/SIA%20Arabic%20Support.png"
+            },
+            {
+                "id": 2,
+                "url": "https://raw.githubusercontent.com/SeevPs/SIA-PG/refs/heads/main/siacontent/SIA%20Quantum%201.0.png"
+            }
+        ],
+        "date": "September 12, 2026",
+        "category": "Minor Release",
+        "icon": "fa-solid fa-language",
+        "imageUrl": "assets/hero.png",
+        "author": "SIA PG Core Team",
+        "highlights": [
+            "Expanded Arabic language localization to cover 87% of the entire application",
+            "Quick language toggle added as the first option in Settings > General",
+            "Added comprehensive Reset Center with 4 granular cleanup & factory reset options",
+            "Fixed AI model visibility issues and set SIA Flash 1.3 as the default model",
+            "14-Day Free Pro Trial unlocked for selected users with no payment method required",
+            "Fixed update mechanism bugs and updated Usage Policy"
+        ],
+        "content": "### تحديث v1.2.4\n\nيقدم هذا التحديث دعماً موسعاً للغة العربية، وأدوات متكاملة لإعادة الضبط، وتحسينات لنماذج الذكاء الاصطناعي والتحديثات:\n\n- **دعم اللغة العربية بنسبة 87%**: أصبح 87% من التطبيق يدعم اللغة العربية بشكل متكامل لتوفير تجربة استخدام سلسة ومريحة.\n- **تغيير اللغة من الإعدادات**: يمكنك الآن تغيير لغة التطبيق بكل سهولة عبر الذهاب إلى **Settings > General** حيث تم وضع خيار تغيير اللغة كأول خيار في القائمة.\n- **ميزة إعادة الضبط الشاملة (4 أقسام)**:\n  - **إعادة ضبط وحذف جميع المواقع**: مسح وإعادة تعيين كافة المواقع والمشاريع.\n  - **إعادة ضبط وحذف جميع الجلسات**: تفريغ وحذف سجل الجلسات والمحادثات بالكامل.\n  - **إعادة ضبط وحذف جميع الصور في قسم Imagine**: تنظيف وحذف كافة الصور المولدة في استوديو Imagine.\n  - **إعادة ضبط المصنع بالكامل**: مسح شامل لكافة الإعدادات والبيانات ومساحات العمل والتخزين المحلي والتخزين المؤقت للعودة للحالة الافتراضية.\n- **حل مشكلة ظهور النماذج وتعيين النموذج الافتراضي**: حل مشكلة عدم ظهور وتوافق قائمة نماذج الذكاء الاصطناعي (Models)، وتم اعتماد نموذج **SIA Flash 1.3** كنموذج افتراضي لكافة العمليات.\n- **تجربة Pro مجانية لمدة 14 يوماً (14 Days Free Pro Trial)**: إضافة تجربة مجانية لباقة Pro لمدة 14 يوماً لمستخدمين محددين بدون الحاجة لإضافة أي طريقة دفع.\n- **إصلاح مشاكل التحديث**: حل المشاكل السابقة في فحص وتثبيت التحديثات لضمان وصول التحديثات واستقرارها.\n- **تحديث سياسة الاستخدام**: تحديث ومواءمة بنود سياسة الاستخدام وشروط الخدمة.\n\n---\n\n### SIA PG v1.2.4 Overview\n\n**SIA PG v1.2.4** brings expanded Arabic localization, a comprehensive System Reset suite, default model optimizations, a 14-day free Pro trial, and updater stability fixes.\n\n#### Arabic Localization (87% Coverage)\n\n- 87% of the application interface is now localized into Arabic.\n- Easily toggle languages under **Settings > General**, conveniently located as the first option.\n\n#### System Reset Suite (4 Granular Options)\n\n- **Reset All Sites**: Remove and clean up all deployed and saved websites/projects.\n- **Reset All Sessions**: Clear and purge all chat histories and active sessions.\n- **Reset Imagine Images**: Delete all generated artwork and image history from the Imagine section.\n- **Full Factory Reset**: Complete purge of all settings, data, workspaces, local storage, and application cache back to factory state.\n\n#### AI Model Enhancements & Fixes\n\n- Resolved model visibility and selection glitches across the interface.\n- **SIA Flash 1.3** is now set as the primary default AI model.\n\n#### 14-Day Free Pro Trial\n\n- Selected users can now enjoy a 14-day Pro trial with full access to Pro features without providing any payment method or credit card.\n\n#### Update Fixes & Usage Policy\n\n- Resolved issues with update checks and downloads to ensure seamless future updates.\n- Updated Terms of Service and Usage Policy."
+    },
+    {
         "id": "v1-2-3",
         "version": "v1.2.3",
         "title": "SIA PG v1.2.3 — Quantum AI, UI Redesign, Display Settings & Safe Message Revert",
-  "images": [
-    {
-      "id": 1,
-      "url": "https://raw.githubusercontent.com/SeevPs/SIA-PG/refs/heads/main/siacontent/SIA%20Quantum%201.0.png"
-    }
-  ],
+        "images": [
+            {
+                "id": 1,
+                "url": "https://raw.githubusercontent.com/SeevPs/SIA-PG/refs/heads/main/siacontent/SIA%20Quantum%201.0.png"
+            }
+        ],
         "date": "September 6, 2026",
         "category": "Major Release",
         "icon": "fa-solid fa-atom",
