@@ -1,5 +1,10 @@
 [
   {
+    "name": "Claw",
+    "image": "https://raw.githubusercontent.com/SeevPs/SIA-PG/refs/heads/main/clients/images/d973242527f51f4452931e471313ea86.webp",
+    "plan": "Ultra"
+  },
+  {
     "name": "William",
     "image": "https://support.discord.com/hc/user_images/l12c7vKVRCd-XLIdDkLUDg.png",
     "plan": "Ultra"
