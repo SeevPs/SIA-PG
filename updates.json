@@ -3,6 +3,12 @@
         "id": "v1-2-3",
         "version": "v1.2.3",
         "title": "SIA PG v1.2.3 — Quantum AI, UI Redesign, Display Settings & Safe Message Revert",
+  "images": [
+    {
+      "id": 1,
+      "url": "https://raw.githubusercontent.com/SeevPs/SIA-PG/refs/heads/main/siacontent/SIA%20Quantum%201.0.png"
+    }
+  ],
         "date": "September 6, 2026",
         "category": "Major Release",
         "icon": "fa-solid fa-atom",
