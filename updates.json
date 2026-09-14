@@ -1,5 +1,26 @@
 [
     {
+        "id": "v1-2-5",
+        "version": "v1.2.5",
+        "title": "SIA PG v1.2.5 — Background Banner, Region Selection, 2FA, SIA Coding Plan & Sub-Agents",
+        "date": "September 14, 2026",
+        "category": "Minor Release",
+        "icon": "fa-solid fa-shield-halved",
+        "imageUrl": "assets/hero.png",
+        "author": "SIA PG Core Team",
+        "highlights": [
+            "Custom UI background banner support for personalized workspaces",
+            "Server Region selection to accelerate latency and response times",
+            "Two-Factor Authentication (2FA) with 6-digit authenticator verification",
+            "SIA Coding Plan with per-step comments and interactive Proceed execution",
+            "Queued Messages buffer (up to 4 messages) with interrupt and cancel actions",
+            "Enhanced Sub-Agents coordination and expanded delegation in Plan Mode",
+            "Comprehensive security hardening across accounts and operations",
+            "Stability fixes for Updates download, Skills system, and Partners section"
+        ],
+        "content": "### تحديث v1.2.5\n\nيقدم هذا التحديث مجموعة من المزايا المتقدمة لتخصيص الواجهة، تعزيز الأمان، تسريع استجابة الخوادم، وتطوير تجربة البرمجة وإدارة الوكلاء الفرعيين:\n\n- **بانر الخلفية (Background Banner)**: إضافة ميزة تخصيص وإضافة بانر خلفية لواجهة المستخدم لتجربة بصرية مميزة.\n- **تحديد المنطقة (Region Selection)**: إضافة ميزة اختيار وتحديد المنطقة الجغرافية لتحسين وتسريع استجابة الخوادم وفقاً لموقع المستخدم.\n- **التحقق بخطوتين (2FA Authenticator)**: تعزيز أمان الحساب بإضافة التحقق بخطوتين برمز أمان مكوّن من 6 أرقام.\n- **خطة العمل البرمجية (SIA Coding Plan)**: إضافة ميزة خطة العمل البرمجية مع دعم كامل للتعليقات والتوجيهات (Comments) لكل خطوة وكل عنصر بالإضافة إلى زر المتابعة والتنفيذ (Proceed).\n- **قائمة انتظار الرسائل (Queued Messages)**: إضافة ميزة الرسائل المنتظرة في قائمة الانتظار بحد يصل إلى 4 رسائل، مع زر الإرسال والمقاطعة، وزر لإلغاء الرسالة المنتظرة.\n- **إدارة وتنسيق الوكلاء الفرعيين (Sub-Agents)**: تحسين إدارة وتنسيق الوكلاء الفرعيين وزيادة الاعتماد عليهم وتوظيفهم بشكل أوسع في وضع التخطيط (Plan Mode).\n- **تحديث أمني شامل (Security Update)**: رفع مستوى الحماية والأمان للحسابات وكافة العمليات والبيانات داخل البرنامج.\n- **تحسين تحميل التحديثات**: تحسين وإصلاح مشاكل تحميل التحديثات لضمان استقرار وصولها وتثبيتها بسلاسة.\n- **تحسين وإصلاح المهارات والشركاء**: تحسين وإصلاح مشاكل قسم المهارات (Skills) وقسم شركائنا (Our Partners).\n- **إيقاف ميزة Imagine Beta مؤقتاً**: إيقاف ميزة توليد الصور مؤقتاً للعمل على تطويرها وتحسينها بشكل كبير وشامل.\n\n---\n\n### SIA PG v1.2.5 Overview\n\n**SIA PG v1.2.5** introduces customizable background banners, server region latency optimization, 2FA security, interactive coding plans, queued messages, and sub-agent orchestration in Plan Mode.\n\n#### UI Background Banner\n\n- Customize and add personalized background banners to elevate your UI workspace appearance.\n\n#### Server Region Selection\n\n- Choose your geographic server region to optimize network routes and accelerate response times.\n\n#### Two-Factor Authentication (2FA)\n\n- Fortify your account with 6-digit TOTP authenticator code verification.\n\n#### SIA Coding Plan\n\n- Full support for interactive coding plans with step-by-step comments, guidance, and a dedicated **Proceed** action button.\n\n#### Queued Messages Buffer\n\n- Queue up to 4 pending messages with real-time send & interrupt controls and cancellation support.\n\n#### Sub-Agent Orchestration in Plan Mode\n\n- Enhanced coordination, task breakdown, and expanded autonomous delegation for sub-agents.\n\n#### Comprehensive Security & Stability Fixes\n\n- Broad security hardening across accounts, credentials, and data transmission.\n- Fixed update download and installer reliability issues.\n- Improved and resolved issues in Skills and Partners sections.\n- Temporarily paused Imagine Beta image generation for major enhancements."
+    },
+    {
         "id": "v1-2-4",
         "version": "v1.2.4",
         "title": "SIA PG v1.2.4 — Arabic Localization (87%), System Reset, Model Fixes & 14-Day Pro Trial",
