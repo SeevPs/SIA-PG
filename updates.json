@@ -1,5 +1,31 @@
 [
     {
+        "id": "v1-2-6",
+        "version": "v1.2.6",
+        "title": "SIA PG v1.2.6 — SIA Spark 1.7 (1M Context), Quantum 1.0 for Pro, Model Details & MCP Servers",
+        "images": [
+            {
+                "id": 1,
+                "url": "https://sia-code.online/assets/SIA%20Spark%201.7%20%201.2.6%20%20Free.png"
+            }
+        ],
+        "date": "September 17, 2026",
+        "category": "Minor Release",
+        "icon": "fa-solid fa-sparkles",
+        "imageUrl": "assets/hero.png",
+        "author": "SIA PG Core Team",
+        "highlights": [
+            "Comprehensive Server Connectivity & Network Stability enhancements for 100% reliable sessions",
+            "Resolved temporary AI model service interruptions with full restoration of model availability",
+            "Interactive Model Details Card featuring Context Window (1M), token rates, and reasoning metrics",
+            "Launched SIA Spark 1.7 — balanced high-speed AI with 1M Context Window on the Free Plan",
+            "Expanded SIA Quantum 1.0 availability to Pro Plan subscribers for advanced reasoning & coding",
+            "Extensive Model Context Protocol (MCP) catalog: Databases, DevOps, Search Engines & Productivity",
+            "General system optimizations, responsiveness improvements, and bug fixes"
+        ],
+        "content": "### تحديث v1.2.6 — ترقية شاملة للنماذج والاتصال ومنظومة MCP\n\nيقدم هذا التحديث نقلة نوعية في استقرار الخدمة، إطلاق نماذج ذكية جديدة، وتوسيع المزايا والقدرات البرمجية ومنظومة خوادم MCP:\n\n- **تعزيز استقرار وثبات الاتصال (Server & Network Stability)**: تحسينات جذرية في آليات الاتصال بالخوادم المركزية والبنية التحتية لضمان عمل البرنامج بثبات تام وموثوقية تشغيلية فائقة مع تقليل زمن الاستجابة (Latency) ومنع انقطاع الجلسات.\n- **إصلاح مشكلة توقف النماذج واستعادة الخدمة بالكامل (Model Outage Resolution)**: معالجة جذرية للخطأ المؤقت (\"Please wait. The service is temporarily unavailable. Try again shortly.\") وإعادة هيكلة مسارات معالجة الطلبات لضمان جاهزية واستقرار كافة نماذج الذكاء الاصطناعي للعمل بنسبة 100% وبأعلى موثوقية.\n- **بطاقة تفاصيل ومعلومات النماذج (Model Details Card)**: واجهة متطورة تعرض المواصفات الدقيقة والشاملة لكل نموذج ذكاء اصطناعي، بما في ذلك سعة نافذة السياق (Context Window)، معدل الاستهلاك واحتساب الرموز، القدرات الاستدلالية والتفكير البرمجي المتقدم، وحالة التوفر وفقاً لخطة الاشتراك الحالية.\n- **إطلاق نموذج SIA Spark 1.7 الجديد (SIA Spark 1.7 Release)**: نموذج ذكي متوازن يجمع بتناغم متقن بين السرعة الفائقة لـ Flash وقوة التفكير البرمجي المتقدم لـ Quantum، مزوّد بنافذة سياق ضخمة بسعة 1M Context Window، ومتاح رسمياً لجميع المستخدمين بما في ذلك مشتركو الخطة المجانية (Free Plan).\n- **إتاحة نموذج SIA Quantum 1.0 لمشتركي باقة Pro**: توسيع نطاق توفر النموذج الأقوى والأحدث في الذكاء الاصطناعي التوليدي والبرمجة المعمارية SIA Quantum 1.0 ليصبح متاحاً رسمياً لمشتركي باقة Pro للاستفادة من أقصى طاقات التفكير والتحليل المنطقي المعقد.\n- **توسيع ودعم خوادم بروتوكول MCP (Model Context Protocol Ecosystem)**: توفير باقة متكاملة من خوادم MCP الجاهزة التي تغطي مجالات العمل المتنوعة:\n  - **قواعد البيانات (Databases)**: MySQL, MongoDB, Redis, Qdrant.\n  - **أدوات المطورين والـ DevOps**: GitLab, Docker, Kubernetes, Cloudflare, Sentry, Time.\n  - **محركات البحث والويب (Search & Web Extraction)**: Tavily, Firecrawl, Exa.\n  - **أدوات الإنتاجية والتكامل (Productivity & Integrations)**: Linear, Notion, Todoist, Obsidian, Discord, Hugging Face.\n- **إصلاحات عامة وتحسينات في الأداء (General Fixes & Performance Polish)**: معالجة حزمة من الأخطاء المتفرقة وتحسين كفاءة المعالجة لتقديم تجربة استخدام تتسم بالانسيابية والموثوقية التامة.\n\n---\n\n### SIA PG v1.2.6 Overview\n\n**SIA PG v1.2.6** delivers major server connection stability, the launch of **SIA Spark 1.7** with a 1M Context Window on the Free Plan, expansion of **SIA Quantum 1.0** to Pro subscribers, interactive **Model Details**, an extensive **MCP Server Catalog**, and 100% model availability restoration.\n\n#### Server Connection & High-Availability Network Stability\n\n- Engineered enhanced transport and retry layers to ensure rock-solid connection stability, lower latency, and zero interruptions during intensive sessions.\n\n#### 100% Model Availability & Outage Resolution\n\n- Resolved temporary service disruption issues (*\"Please wait. The service is temporarily unavailable. Try again shortly.\"*) with hardened request pipelines, restoring 100% uptime across all AI models.\n\n#### Interactive Model Details Card\n\n- View comprehensive specifications for every AI model, including Context Window capacity (up to 1M tokens), token usage metrics, advanced reasoning and coding capabilities, and plan-based eligibility.\n\n#### Introducing SIA Spark 1.7 (Available on Free Plan)\n\n- **Balanced Power & Speed**: A next-generation hybrid model engineered to combine the blazing execution speed of Flash with the deep coding reasoning of Quantum.\n- **Massive 1M Context Window**: Process vast codebases and documents effortlessly.\n- **Free for Everyone**: Fully accessible to all users on the Free Plan.\n\n#### SIA Quantum 1.0 Unlocked for Pro Plan\n\n- Our premier, state-of-the-art flagship model is now officially available to **Pro Plan** subscribers, unlocking maximum architectural reasoning and elite full-stack code synthesis.\n\n#### Expanded Model Context Protocol (MCP) Ecosystem\n\n- Integrated a rich, turnkey suite of MCP servers across four vital domains:\n  - **Databases**: MySQL, MongoDB, Redis, and Qdrant.\n  - **DevOps & Cloud Infrastructure**: GitLab, Docker, Kubernetes, Cloudflare, Sentry, and Time utilities.\n  - **Search & Web Scraping**: Tavily, Firecrawl, and Exa.\n  - **Productivity & Collaboration**: Linear, Notion, Todoist, Obsidian, Discord, and Hugging Face.\n\n#### General Fixes & Performance Polish\n\n- Under-the-hood optimizations, UI responsiveness improvements, and bug fixes across core modules to ensure peak productivity."
+    },
+    {
         "id": "v1-2-5",
         "version": "v1.2.5",
         "title": "SIA PG v1.2.5 — Background Banner, Region Selection, 2FA, SIA Coding Plan & Sub-Agents",
