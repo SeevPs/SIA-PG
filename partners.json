@@ -4,26 +4,5 @@
   "description": "نعمل جنباً إلى جنب مع كبرى منصات الاستضافة، مزودي السيرفرات، ومطوري حلول الذكاء الاصطناعي لتقديم بيئة برمجية متكاملة تليق بمجتمع SIA PG.",
   "discordUrl": "https://discord.gg/uqYcdN4FFq",
   "contactEmail": "partners@sia-code.online",
-  "partners": [
-    {
-      "id": "botfiy-store",
-      "name": "Botfiy Store",
-      "tagline": "Official Discord Bots, FiveM & Development Partner",
-      "category": "Development & Digital Store",
-      "tier": "Strategic Partner",
-      "featured": true,
-      "verified": true,
-      "logo": "https://sia-code.online/assets/a_8755d64712307bf6a089231cacada334.webp",
-      "banner": "https://sia-code.online/assets/a_34ac49c3d4148f3c6e35a7cc106d6ae4.gif",
-      "url": "https://discord.gg/uqYcdN4FFq",
-      "socials": {
-        "discord": "https://discord.gg/uqYcdN4FFq"
-      },
-      "perks": [
-        "Discord Bots",
-        "FiveM Development",
-        "Digital Services"
-      ]
-    }
-  ]
+  "partners": []
 }
